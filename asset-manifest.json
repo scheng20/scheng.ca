@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/scheng.ca/static/css/main.5f361e03.chunk.css",
+    "main.js": "/scheng.ca/static/js/main.65808eaf.chunk.js",
+    "main.js.map": "/scheng.ca/static/js/main.65808eaf.chunk.js.map",
+    "runtime-main.js": "/scheng.ca/static/js/runtime-main.1d503f32.js",
+    "runtime-main.js.map": "/scheng.ca/static/js/runtime-main.1d503f32.js.map",
+    "static/js/2.35ba42ed.chunk.js": "/scheng.ca/static/js/2.35ba42ed.chunk.js",
+    "static/js/2.35ba42ed.chunk.js.map": "/scheng.ca/static/js/2.35ba42ed.chunk.js.map",
+    "index.html": "/scheng.ca/index.html",
+    "precache-manifest.b342f2723e99cb27c33bc852bacc7629.js": "/scheng.ca/precache-manifest.b342f2723e99cb27c33bc852bacc7629.js",
+    "service-worker.js": "/scheng.ca/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/scheng.ca/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.35ba42ed.chunk.js.LICENSE.txt": "/scheng.ca/static/js/2.35ba42ed.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/scheng.ca/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d503f32.js",
+    "static/js/2.35ba42ed.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.65808eaf.chunk.js"
+  ]
+}
