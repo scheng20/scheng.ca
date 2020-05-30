@@ -2,8 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {FaGithub, FaLinkedinIn, FaFileAlt} from 'react-icons/fa';
+import {MdEmail} from 'react-icons/md';
 
 const Styles = styled.div`
 	h1 {
@@ -12,11 +15,62 @@ const Styles = styled.div`
 		font-size: 2.2rem;
 	}
 
-	.btn-primary {
-		border-color: #e86100;
+	.btn {
+		height: 3.5rem;
+		width: 3.5rem;
+
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+
 		background-color: #e86100;
+		border-color: #e86100;
 		color: white;
+		transition: all .2s;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+		
+		
 	}
+
+	.btn-email {
+
+		&:hover {
+			background-color: #ea4335;
+			border-color: #ea4335;
+			transform: scale(1.3);
+		}
+	}
+
+	.btn-github {
+
+		&:hover {
+			background-color: black;
+			border-color: black;
+			transform: scale(1.3);
+		}
+	}
+
+	.btn-linkedin {
+
+		&:hover {
+			background-color: #0274b3;
+			border-color: #0274b3;
+			transform: scale(1.3);
+		}
+	}
+
+	.btn-resume {
+
+		&:hover {
+			background-color: #358135;
+			border-color: #358135;
+			transform: scale(1.3);
+		}
+	}
+
+
+
 `;
 
 // This section needs JS to be completed
@@ -29,35 +83,26 @@ export default function Contact() {
 	return (
 		<div>
 			<Styles>			
-			<h1> Contact Me </h1>
-			<Form>
-				<Form.Row>
-					<Form.Group as={Col} controlId="formName">
-				    	<Form.Label>Name</Form.Label>
-				    	<Form.Control type="text" placeholder="Cool Name"/>
-				  	</Form.Group>
+				<h1> Contact Me </h1>
+				<Container>
+					<Row className="justify-content-center">
+						<Button className="btn-email" href="mailto:chengsheena25@gmail.com">
+							<MdEmail size = {25}/>
+						</Button>
 
-				  	<Form.Group as={Col} controlId="formEmail">
-				    	<Form.Label>Email Address</Form.Label>
-				    	<Form.Control type="email" placeholder="coolemail@example.com" />
-				  	</Form.Group>
-			  	</Form.Row>
+						<Button className="btn-linkedin" href="https://www.linkedin.com/in/sheena-cheng/" target="_blank">
+							<FaLinkedinIn size = {25}/>
+						</Button>
 
-			  	<Form.Group controlId="formSubject">
-				    <Form.Label>Subject</Form.Label>
-				    <Form.Control type="text" placeholder="Cool Topic"/>
-				</Form.Group>
-
-				<Form.Group controlId="formMessage">
-				    <Form.Label>Message</Form.Label>
-				    <Form.Control as="textarea" rows = "5" placeholder="Cool Message"/>
-				</Form.Group>
-
-			  	<Button className="float-right" variant="primary" type="submit">
-			    	Submit
-			  	</Button>
-
-			</Form>
+						<Button className="btn-github" href="https://github.com/scheng20" target="_blank">
+							<FaGithub size = {25}/>
+						</Button>
+						
+						<Button className="btn-resume" href="" target="_blank">
+							<FaFileAlt size = {25}/>
+						</Button>
+					</Row>
+				</Container>
 			</Styles>
 		</div>
 

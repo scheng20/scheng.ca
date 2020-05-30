@@ -9,15 +9,6 @@ import styled from 'styled-components';
 
 export default function Home() {
 
-	// Planned color scheme (for actual website):
-	// Intro: dark
-	// Experiences: light (or grey)
-	// Projects: white (or grey)
-	// Skills: light (or grey)
-	// Contact: dark
-
-	// Try things out and see what works / what doesn't!
-
 	return(
 		<div>
 			<a name="introduction"></a>
