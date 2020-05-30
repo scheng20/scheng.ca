@@ -8,7 +8,7 @@ import Image from 'react-bootstrap/Image';
 import demo1 from "../Assets/demo1.gif";
 import demo2 from "../Assets/demo2.gif";
 import demo3 from "../Assets/demo3.gif";
-import CenteredModal from "./ModalCentered.js";
+import ProjectsItem from "./ProjectsItem.js";
 import Badge from 'react-bootstrap/Badge';
 import game1 from "../Assets/Game1.png";
 import game2 from "../Assets/Game2.png";
@@ -85,14 +85,14 @@ export default function Projects() {
 					</Card>
 				</CardDeck>
 
-				<CenteredModal
+				<ProjectsItem
 					show = {modalShow1}
 					onHide = {()=> setModalShow1(false)}
 					heading = "Sharing Schedule Generator"
 
 				/>
 
-				<CenteredModal
+				<ProjectsItem
 					show = {modalShow2}
 					onHide = {()=> setModalShow2(false)}
 					link = 'https://github.com/scheng20/just-a-2d-game'

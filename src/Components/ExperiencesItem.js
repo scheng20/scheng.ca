@@ -23,7 +23,7 @@ const Styles = styled.div`
 `;
 
 
-export default function ExperienceItem(props) {
+export default function ExperiencesItem(props) {
 
 	return (
     	<div>

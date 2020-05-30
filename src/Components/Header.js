@@ -34,7 +34,7 @@ const Styles = styled.div `
 `;
 
 
-export default function NavigationBar() {
+export default function Header() {
 	return(
 		<div>
 			<Styles>

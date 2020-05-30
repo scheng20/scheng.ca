@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
 
-export default function CenteredModal(props) {
+export default function ProjectsItem(props) {
 
   return (
     <div>

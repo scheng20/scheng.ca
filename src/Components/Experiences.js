@@ -3,7 +3,7 @@ import Component from 'react'
 import styled from 'styled-components';
 import HorizontalTimeline from './Timeline/Components/HorizontalTimeline';
 import SwipeableViews from 'react-swipeable-views';
-import ExperienceItem from "./ExperienceItem.js";
+import ExperiencesItem from "./ExperiencesItem.js";
 import biztech from "../Assets/biztech.png";
 import shad from "../Assets/shad.png";
 import math from "../Assets/math.png";
@@ -49,14 +49,14 @@ export default class Experiences extends React.Component {
 		            }}
 		            resistance>
 		            <div>
-				     	<ExperienceItem
+				     	<ExperiencesItem
 				     		heading = "SHAD Fellow"
 				     		company = "SHAD"
 				     		image = {shad}
 				     		url = 'https://www.shad.ca/'
 				     		desp = "In 2016, I attended the University of Western Ontario as a delegate for SHAD, one of Canada’s most prestigious summer programs for high school students, with a focus on STEM (science, technology, engineering, mathematics) and entrepreneurship. The SHAD Alumni Network includes more than 15,500 of the best and brightest from all across Canada, including 30 Rhodes Scholars, 78 Loran Scholars, Top 40 under 40 & Top 20 under 20 recipients, and more."
 				     	/>
-				     	<ExperienceItem
+				     	<ExperiencesItem
 				     		heading = "Summer Intern"
 				     		company = "MathPickle"
 				     		url = 'https://mathpickle.com/'
@@ -68,7 +68,7 @@ export default class Experiences extends React.Component {
 				    	
 				    </div>
 				    <div>
-				    	<ExperienceItem
+				    	<ExperiencesItem
 				     		heading = "Marketing Director & Team Lead"
 				     		company = "UBC BizTech"
 				     		image = {biztech}

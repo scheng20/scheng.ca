@@ -21,7 +21,7 @@ export default function Footer() {
 		<Navbar expand="lg">
 			<Navbar.Collapse id = "basic-navbar-nav" className = "text-center">
 				<Navbar.Text>
-				 Made with <Emoji symbol="♥"/> React and React Bootstrap • © Sheena Cheng {new Date().getFullYear()}
+				 Made with <Emoji symbol="😎🍍"/>, React, React Bootstrap • © Sheena Cheng {new Date().getFullYear()}
 				</Navbar.Text>
 			</Navbar.Collapse>
 		</Navbar>

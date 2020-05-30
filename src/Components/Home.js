@@ -1,12 +1,11 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container';
 import Introduction from './Introduction';
 import Experiences from './Experiences';
 import Projects from './Projects'; 
 import Skills from './Skills';
 import Contact from './Contact';
 import styled from 'styled-components';
-import Container from 'react-bootstrap/Container';
-
 
 export default function Home() {
 
