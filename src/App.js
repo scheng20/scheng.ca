@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Home from './Components/Home';
+import NavigationBar from './Components/NavigationBar';
+import styled from 'styled-components';
+
+// Font of website
+const Styles = styled.div`
+  *{
+
+    font-family: Segoe UI;
+    
+  }
+
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Greetings from a Pineapple.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Styles>
+        <NavigationBar></NavigationBar>
+        <Router>
+          <Switch>
+            <Route exact path="/" component = {Home} />
+            <Route path="/home" component = {Home} />
+            <Route exact path="/scheng.ca" component = {Home} />
+            <Route path="/scheng.ca/home" component = {Home} />
+          </Switch>
+        </Router>
+      </Styles>
+    </React.Fragment>
   );
 }
 
