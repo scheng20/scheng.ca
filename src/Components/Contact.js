@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {FaGithub, FaLinkedinIn, FaFileAlt} from 'react-icons/fa';
 import {MdEmail} from 'react-icons/md';
+import Emoji from './Emoji.js';
 
 const Styles = styled.div`
 	h1 {
@@ -15,7 +16,7 @@ const Styles = styled.div`
 		font-size: 2.2rem;
 	}
 
-	.btn {
+	.btn, .btn-focus {
 		height: 3.5rem;
 		width: 3.5rem;
 
@@ -30,14 +31,13 @@ const Styles = styled.div`
     	justify-content: center;
     	align-items: center;
 		
-		
 	}
 
 	.btn-email {
 
 		&:hover {
-			background-color: #ea4335;
-			border-color: #ea4335;
+			background-color: #ea4335 !important; 
+			border-color: #ea4335 !important;
 			transform: scale(1.3);
 		}
 	}
@@ -45,8 +45,8 @@ const Styles = styled.div`
 	.btn-github {
 
 		&:hover {
-			background-color: black;
-			border-color: black;
+			background-color: black !important;
+			border-color: black !important;
 			transform: scale(1.3);
 		}
 	}
@@ -54,8 +54,8 @@ const Styles = styled.div`
 	.btn-linkedin {
 
 		&:hover {
-			background-color: #0274b3;
-			border-color: #0274b3;
+			background-color: #0274b3 !important;
+			border-color: #0274b3 !important;
 			transform: scale(1.3);
 		}
 	}
@@ -63,28 +63,25 @@ const Styles = styled.div`
 	.btn-resume {
 
 		&:hover {
-			background-color: #358135;
-			border-color: #358135;
+			background-color: #358135 !important;
+			border-color: #358135 !important;
 			transform: scale(1.3);
 		}
 	}
 
-
+	p {
+		font-size: 1.2rem;
+	}
 
 `;
-
-// This section needs JS to be completed
-// Note to self: hmm it seems that in order to have this form, it will need a separate back end...
-// I'm not so sure on whether or not I want to build a backend for this because it'll be hosted on github pages... 
-
-// I think what I'll do is just turn this section into a "find me on..." area. Too much work to actually build backend lol
 
 export default function Contact() {
 	return (
 		<div>
 			<Styles>			
-				<h1> Contact Me </h1>
-				<Container>
+				<h1>Contact Me</h1>
+				<Container className="text-center">
+					<p> Want to get in touch? Reach out to me on any of these platforms: <Emoji symbol="📲"/></p>
 					<Row className="justify-content-center">
 						<Button className="btn-email" href="mailto:chengsheena25@gmail.com">
 							<MdEmail size = {25}/>
@@ -98,9 +95,9 @@ export default function Contact() {
 							<FaGithub size = {25}/>
 						</Button>
 						
-						<Button className="btn-resume" href="" target="_blank">
+						{/* <Button className="btn-resume" href="" target="_blank">
 							<FaFileAlt size = {25}/>
-						</Button>
+						</Button> */}
 					</Row>
 				</Container>
 			</Styles>
