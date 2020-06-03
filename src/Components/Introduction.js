@@ -40,6 +40,11 @@ const Styles = styled.div`
 	a:hover {
 	  background-size: 4px 50px;
 	}
+
+	img {
+		display:block;
+    	margin:auto;
+	}
 `;
 
 
@@ -48,16 +53,15 @@ export default function Introduction() {
 	return (
 		<div>
 			<Styles>
-			<Container className="justify-content-center">
-                <Row>
+                <Row className="justify-content-center">
                   <Col className="align-self-center" > 
-                    <Image 
+                    <Image
                     	src={pic} 
                     	width = {330}
 		                height = {330}
                     	roundedCircle  />
                   </Col>
-                  <Col xs = {8} className="align-self-center" >
+                  <Col lg = {8} className="align-self-center" >
                     <h1> Nice to meet you! </h1>
 					<p>
 					My name is Sheena and I’m a third year student studying <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank">business and computer science (BUCS)</a> at 
@@ -70,7 +74,6 @@ export default function Introduction() {
 					<p> On this site you can find some of my past <a href="#experience">experiences</a>, <a href="#projects">projects</a>, and <a href="#skills">skills</a>. </p>
                   </Col>
                 </Row>
-             </Container>
 			</Styles>
 		</div>
 	);

@@ -80,7 +80,6 @@ export default function Skills() {
 				    </Card.Text>
 				  </Card.Body>
 				</Card>
-
 			</CardColumns>
 			</Styles>
 		</div>

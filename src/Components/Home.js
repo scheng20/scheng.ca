@@ -7,57 +7,56 @@ import Skills from './Skills';
 import Contact from './Contact';
 import styled from 'styled-components';
 
+const Styles = styled.div`
+
+	.container-fluid {
+    	padding-left: 12%;
+    	padding-right: 12%;
+    	padding-top: 3rem;
+    	padding-bottom: 3rem;
+	} 
+`;
+
 export default function Home() {
 
 	return(
+		<Styles>
 		<div>
 			<a name="introduction"></a>
-			<Container fluid style = {{"background-color" : "#fafafa"}}>
-				<Container>
-					<br/><br/>
-					<br/><br/>
-					<br/><br/>
+			<Container fluid style = {{"backgroundColor" : "#fafafa", "paddingTop" : "9rem"}}>
+			
 					<Introduction/>
 					<a name="experience"></a>
-					<br/><br/>
-					<br/><br/>
-				</Container>
+
 			</Container>
 
-			<Container fluid style = {{"background-color" : "white"}}>
-				<Container>
-					<br/><br/>
+			<Container fluid style = {{"backgroundColor" : "white"}}>
+
 					<Experiences/>
 					<a name="projects"></a>
-					<br/><br/>
-				</Container>
+
 			</Container>
 
-			<Container fluid style = {{"background-color" : "#fafafa"}}>
-				<Container>
-					<br/><br/>
+			<Container fluid style = {{"backgroundColor" : "#fafafa"}}>
+
 					<Projects/>
 					<a name="skills"></a>
-					<br/><br/>
-				</Container>
+
 			</Container>
 
-			<Container fluid style = {{"background-color" : "white"}}>
-				<Container>
-					<br/><br/>
+			<Container fluid style = {{"backgroundColor" : "white"}}>
+
 					<Skills/>
 					<a name="contact"></a>
-					<br/><br/>
-				</Container>
+
 			</Container>
 
-			<Container fluid style = {{"background-color" : "#fafafa"}}>
-				<Container>
-					<br/><br/>
+			<Container fluid style = {{"backgroundColor" : "#fafafa"}}>
+
 					<Contact/>
-					<br/><br/><br/>
-				</Container>
+
 			</Container>
 		</div>
+		</Styles>
 	);
 }

@@ -6,8 +6,8 @@ import styled from 'styled-components';
 const Styles = styled.div `
 	.navbar {
 		background-color: #e86100;
-		padding-left: 15rem;
-		padding-right: 15rem;
+		padding-left: 12%;
+		padding-right: 12%;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 	}

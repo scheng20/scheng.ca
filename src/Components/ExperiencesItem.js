@@ -17,7 +17,7 @@ const Styles = styled.div`
 	}
 
 	.zoom:hover {
-  		transform: scale(1.2); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  		transform: scale(1.2); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 	}
 
 `;
