@@ -23,7 +23,7 @@ export default function Home() {
 		<Styles>
 		<div>
 			<a name="introduction"></a>
-			<Container fluid style = {{"backgroundColor" : "#fafafa", "paddingTop" : "9rem"}}>
+			<Container fluid style = {{"backgroundColor" : "#fafafa", "paddingTop" : "7.5rem"}}>
 			
 					<Introduction/>
 					<a name="experience"></a>
@@ -51,7 +51,7 @@ export default function Home() {
 
 			</Container>
 
-			<Container fluid style = {{"backgroundColor" : "#fafafa"}}>
+			<Container fluid style = {{"backgroundColor" : "#fafafa", "paddingBottom" : "4rem"}}>
 
 					<Contact/>
 

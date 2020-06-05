@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import Card from 'react-bootstrap/Card';
+import CardColumns from 'react-bootstrap/CardColumns';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -35,6 +36,10 @@ const Styles = styled.div`
 		color: #e86100;
 		font-size: 2.2rem;
 	}
+
+	.card {
+		margin-bottom: 2rem;
+	}
 `;
 
 export default function Projects() {
@@ -48,7 +53,7 @@ export default function Projects() {
 			<Styles>
 				<h1> Projects </h1>
 				<CardDeck>
-					<Card style={{ 'width': '20rem' }}>
+					<Card>
 					  <Card.Img variant="top" src={demo1} />
 					  <Card.Body>
 					    <Card.Title>Sharing Schedule Generator</Card.Title>
@@ -60,7 +65,7 @@ export default function Projects() {
 					    <Button variant="outline-primary" onClick = {() => setModalShow1(true)}>Learn More</Button>
 					  </Card.Body>
 					</Card>
-					<Card style={{ 'width': '20rem' }}>
+					<Card>
 					  <Card.Img variant="top" src={demo2} />
 					  <Card.Body>
 					    <Card.Title>Just a 2D Game</Card.Title>
@@ -71,7 +76,7 @@ export default function Projects() {
 					    <Button variant="outline-primary" onClick = {() => setModalShow2(true)} >Learn More</Button>
 					  </Card.Body>
 					</Card>
-					<Card style={{ 'width': '20rem' }}>
+					<Card>
 					  <Card.Img variant="top" src={demo3} />
 					  <Card.Body>
 					    <Card.Title>Online Management Platform</Card.Title>

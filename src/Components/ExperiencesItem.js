@@ -20,6 +20,14 @@ const Styles = styled.div`
   		transform: scale(1.2); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 	}
 
+	.col {
+		margin-top: 2rem;
+    	margin-bottom: 2rem;
+	}
+
+	.card {
+		margin-bottom: 0.5rem;
+	}
 `;
 
 

@@ -11,12 +11,16 @@ const Styles = styled.div`
 		color: #e86100;
 		font-size: 2.2rem;
 	}
+
+	.card {
+		margin-bottom: 2rem;
+	}
 `;
 
 export default function Skills() {
 
 	return (
-		<div className = "overlay">
+		<div>
 			<Styles>
 			<h1> Skills </h1>
 			<CardColumns>

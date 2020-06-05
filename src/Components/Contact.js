@@ -71,6 +71,7 @@ const Styles = styled.div`
 
 	p {
 		font-size: 1.2rem;
+		margin-bottom: 2rem;
 	}
 
 `;

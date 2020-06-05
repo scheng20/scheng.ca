@@ -45,6 +45,11 @@ const Styles = styled.div`
 		display:block;
     	margin:auto;
 	}
+
+	.col {
+		margin-top: 2rem;
+    	margin-bottom: 2rem;
+	}
 `;
 
 
