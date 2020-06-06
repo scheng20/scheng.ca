@@ -1,11 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import Card from 'react-bootstrap/Card';
-import CardColumns from 'react-bootstrap/CardColumns';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import Image from 'react-bootstrap/Image';
 import demo1 from "../Assets/demo1.gif";
 import demo2 from "../Assets/demo2.gif";
 import demo3 from "../Assets/demo3.gif";
@@ -121,7 +118,7 @@ export default function Projects() {
 								  	</ul>
 								 </div>
 								}
-					extraButton = {<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://www.google.com' target="_blank">Play The Game</Button>}
+					extrabutton = {<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://www.google.com' target="_blank">Play The Game</Button>}
 					heading = {<div>
 									Just a 2D Game
 									<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>

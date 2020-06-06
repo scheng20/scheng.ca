@@ -1,5 +1,4 @@
 import React from 'react'
-import Component from 'react'
 import styled from 'styled-components';
 import HorizontalTimeline from './Timeline/Components/HorizontalTimeline';
 import SwipeableViews from 'react-swipeable-views';
@@ -26,7 +25,6 @@ export default class Experiences extends React.Component {
 		return (
 			<Styles>
 			<div>
-				
 				<h1> Experiences </h1>
 				<div style={{ width: '100%', height: '5rem', margin: '20 auto' }}>
 		          <HorizontalTimeline

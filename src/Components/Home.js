@@ -22,11 +22,11 @@ export default function Home() {
 	return(
 		<Styles>
 		<div>
-			<a name="introduction"></a>
+			<a name = "introduction"></a>
 			<Container fluid style = {{"backgroundColor" : "#fafafa", "paddingTop" : "7.5rem"}}>
 			
 					<Introduction/>
-					<a name="experience"></a>
+					<a href="#experience" name="experience"></a>
 
 			</Container>
 

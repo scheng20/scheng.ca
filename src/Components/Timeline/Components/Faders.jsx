@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Radium from 'radium';
 
-import Color from 'color';
-
 const LEFT = 'left';
 const RIGHT = 'right';
 

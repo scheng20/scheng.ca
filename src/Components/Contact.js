@@ -1,10 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import {FaGithub, FaLinkedinIn, FaFileAlt} from 'react-icons/fa';
 import {MdEmail} from 'react-icons/md';
 import Emoji from './Emoji.js';

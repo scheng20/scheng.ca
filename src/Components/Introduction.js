@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
@@ -69,8 +68,8 @@ export default function Introduction() {
                   <Col lg = {8} className="align-self-center" >
                     <h1> Nice to meet you! </h1>
 					<p>
-					My name is Sheena and I’m a third year student studying <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank">business and computer science (BUCS)</a> at 
-					the University of British Columbia. I am passionate about both <a href="https://github.com/scheng20" target = "_blank"> software development </a> and <a href="https://www.linkedin.com/in/sheena-cheng/" target = "_blank"> entrepreneurship </a>. 
+					My name is Sheena and I’m a third year student studying <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank" rel="noopener noreferrer">business and computer science (BUCS)</a> at 
+					the University of British Columbia. I am passionate about both <a href="https://github.com/scheng20" target = "_blank" rel="noopener noreferrer"> software development </a> and <a href="https://www.linkedin.com/in/sheena-cheng/" target = "_blank" rel="noopener noreferrer"> entrepreneurship </a>. 
 					I enjoy building things that will make people’s lives easier, and enlarging that impact through the power of business. </p>
 
 					<p> In my spare time, I like to play video games <Emoji symbol="🎮"/>, hike in nature <Emoji symbol="🌲"/>, workout <Emoji symbol="🏋🏻‍♀️"/>, or play the guitar <Emoji symbol="🎸"/>. 

@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
@@ -42,8 +41,8 @@ export default function ExperiencesItem(props) {
   					<Container>
 	                <Row>
 	                  <Col className="align-self-center text-center"> 
-	                 	<div class="zoom">
-	                 		<a href = {props.url} target="_blank">
+	                 	<div className="zoom">
+	                 		<a href = {props.url} target="_blank" rel="noopener noreferrer">
 		                    <Image 
 		                    	src={props.image}
 		                    	width = {110}

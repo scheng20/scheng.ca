@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Badge from 'react-bootstrap/Badge';
 import styled from 'styled-components';
 
 const Styles = styled.div`
@@ -76,7 +75,7 @@ export default function ProjectsItem(props) {
               </Styles>
             </Modal.Body>
             <Modal.Footer>
-              {props.extraButton}
+              {props.extrabutton}
               <Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href={props.link} target="_blank">View on GitHub</Button>
             </Modal.Footer>
         </Modal>
