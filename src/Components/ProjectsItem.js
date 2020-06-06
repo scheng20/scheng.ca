@@ -6,6 +6,37 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
+import styled from 'styled-components';
+
+const Styles = styled.div`
+  /* xs */
+  img {
+      width: 80%;
+      height: auto;
+      margin-bottom: 2rem;
+  }
+
+  /* sm */
+  @media (min-width: 768px) {
+      img {
+          width: 80%;
+      }
+  }
+
+  /* md */
+  @media (min-width: 992px) {
+      img {
+          width: 100%;
+      }
+  }
+
+  /* lg */
+  @media (min-width: 1200px) {
+      img {
+          width: 100%;
+      }
+  }
+`
 
 export default function ProjectsItem(props) {
 
@@ -23,18 +54,26 @@ export default function ProjectsItem(props) {
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
+              <Styles>
               <Container>
                 <Row>
-                  <Col> 
-                    <Image src={props.image1} rounded fluid />
-                    <br/><br/>
+                  <Col className = "text-center"> 
+                    <Image src={props.image1} rounded fluid />              
+                  </Col>
+                  <Col lg = {8}>
+                    {props.summary}
+                  </Col>
+                </Row>
+                <Row>
+                  <Col className = "text-center">
                     <Image src={props.image2} rounded fluid />
                   </Col>
-                  <Col xs = {8}>
-                    {props.desp}
+                  <Col lg = {8}>
+                    {props.learnings}
                   </Col>
                 </Row>
               </Container>
+              </Styles>
             </Modal.Body>
             <Modal.Footer>
               {props.extraButton}

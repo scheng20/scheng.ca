@@ -102,14 +102,25 @@ export default function Projects() {
 					link = 'https://github.com/scheng20/just-a-2d-game'
 					image1 = {game1}
 					image2 = {game2}
-					desp = {<div> <strong>Summary:</strong>
-								  <br/>
-								  <p>Over the summer of 2018, I built a small 2D puzzle platformer game using the Unity game engine. The same may seem like a simple platformer on first sight, 
-								     but it has several hidden tricks and puzzles built in for the player to explore.</p>
-								  <br/>
-								  <strong>What I learned: </strong>
-								  <p>This was the first game I've built using the Unity game engine, so I definitely learned a lot on how to use Unity and code in C# in general.
-								  	 I also learned about some basic game design concepts such as level design, camera movement, and pixel art.</p></div>}
+					summary = {
+								<div> 
+									<strong>Summary:</strong>
+								  	<br/>
+								  	<p>Over the summer of 2018, I built a small 2D puzzle platformer game using the Unity game engine. The same may seem like a simple platformer on first sight, 
+								       but it has several hidden tricks and puzzles built in for the player to explore.</p>
+								</div>
+								}
+					learnings = { 
+								<div> 
+									<strong>What I learned: </strong>
+								  	<ul>
+								  		<li> How to build a game using Unity 2D </li>
+								  		<li> How to use particle effects in Unity </li>
+								  		<li> Basic C# </li>
+								  		<li> Basic Level Design </li>
+								  	</ul>
+								 </div>
+								}
 					extraButton = {<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://www.google.com' target="_blank">Play The Game</Button>}
 					heading = {<div>
 									Just a 2D Game
