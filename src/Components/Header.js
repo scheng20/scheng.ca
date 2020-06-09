@@ -19,12 +19,13 @@ const Styles = styled.div `
 
 		&:hover {
 			color: white;
+			text-decoration: underline white;
 		}
 
 		&.active {
-			color: white !important;
 			text-decoration: underline white;
 		}
+		
 	}
 
 	.navbar-brand {

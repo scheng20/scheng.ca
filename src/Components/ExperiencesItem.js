@@ -51,7 +51,7 @@ export default function ExperiencesItem(props) {
 		                    </a>
 	                    </div>
 	                  </Col>
-	                  <Col xs = {10}>
+	                  <Col className = "align-self-center" xs = {10}>
 	                  	<h5>{props.heading}</h5>
 	                  	<h5 className="mb-2 text-muted">{props.company}</h5>
 	                    {props.desp}
