@@ -8,6 +8,7 @@ import Image from 'react-bootstrap/Image';
 import styled from 'styled-components';
 
 const Styles = styled.div`
+  
   /* xs */
   img {
       width: 80%;
@@ -60,7 +61,9 @@ export default function ProjectsItem(props) {
                     <Image src={props.image1} rounded fluid />              
                   </Col>
                   <Col lg = {8}>
-                    {props.summary}
+                    <strong>Summary:</strong>
+                    <br/>
+                    <p>{props.summary}</p>
                   </Col>
                 </Row>
                 <Row>
@@ -68,6 +71,7 @@ export default function ProjectsItem(props) {
                     <Image src={props.image2} rounded fluid />
                   </Col>
                   <Col lg = {8}>
+                    <strong>What I learned: </strong>
                     {props.learnings}
                   </Col>
                 </Row>
@@ -76,7 +80,7 @@ export default function ProjectsItem(props) {
             </Modal.Body>
             <Modal.Footer>
               {props.extrabutton}
-              <Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href={props.link} target="_blank">View on GitHub</Button>
+              <Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href={props.link} target="_blank" rel="noopener noreferrer">View on GitHub</Button>
             </Modal.Footer>
         </Modal>
     </div>

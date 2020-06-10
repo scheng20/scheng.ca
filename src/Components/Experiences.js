@@ -31,29 +31,30 @@ export default class Experiences extends React.Component {
 
 	render() {
 		return (
-			<Styles>
 			<div>
+			<Styles>
 				<h1> Experiences </h1>
 				<div style={{ width: '100%', height: '5rem', margin: '20 auto' }}>
-		          <HorizontalTimeline
-		            index={this.state.value}
-		            indexClick={(index) => {
-		              this.setState({ value: index, previous: this.state.value });
-		            }}
-		            values={ VALUES } 
-		            styles = {{ background: '#f8f8f8', foreground: '#e86100', outline: '#dfdfdf' }}
-		            maxEventPadding = {100}
-		            minEventPadding = {100}
-		            labelWidth = {100}
+		          	<HorizontalTimeline
+			            index={this.state.value}
+			            indexClick={(index) => {
+			              this.setState({ value: index, previous: this.state.value });
+			            }}
+			            values={ VALUES } 
+			            styles = {{ background: '#f8f8f8', foreground: '#e86100', outline: '#dfdfdf' }}
+			            maxEventPadding = {100}
+			            minEventPadding = {100}
+			            labelWidth = {100}
 		            />
 	        	</div>
 	        	<div>
-		          <SwipeableViews
-		            index={this.state.value}
-		            onChangeIndex={(value, previous) => {
-		              this.setState({ value: value, previous: previous });
-		            }}
-		            resistance>
+		        	<SwipeableViews
+			            index={this.state.value}
+			            onChangeIndex={(value, previous) => {
+			              this.setState({ value: value, previous: previous });
+			            }}
+			            resistance
+			            enableMouseEvents>
 		            <div>
 				     	<ExperiencesItem
 				     		heading = "Summer Intern"
@@ -188,16 +189,10 @@ export default class Experiences extends React.Component {
 		                    		throughout the year."
 				     	/>
 				    </div>
-		          </SwipeableViews>
+		        	</SwipeableViews>
 			    </div>
-			</div>
 			</Styles>
+			</div>
 		);
 	}
 }
-
-/*
-export default function Experiences() {
-
-	
-}*/

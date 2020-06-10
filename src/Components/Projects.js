@@ -1,15 +1,17 @@
 import React from 'react'
 import styled from 'styled-components';
+import Badge from 'react-bootstrap/Badge';
+import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-import Button from 'react-bootstrap/Button';
-import demo1 from "../Assets/demo1.gif";
-import demo2 from "../Assets/demo2.gif";
-import demo3 from "../Assets/demo3.gif";
 import ProjectsItem from "./ProjectsItem.js";
-import Badge from 'react-bootstrap/Badge';
+import project1 from "../Assets/project1.gif";
+import project2 from "../Assets/project2.gif";
+import project3 from "../Assets/project3.gif";
 import game1 from "../Assets/Game1.png";
 import game2 from "../Assets/Game2.png";
+import sharing1 from "../Assets/Sharing1.png";
+import sharing2 from "../Assets/Sharing2.png";
 
 const Styles = styled.div`
 	.btn-outline-primary {
@@ -51,7 +53,7 @@ export default function Projects() {
 				<h1> Projects </h1>
 				<CardDeck>
 					<Card>
-					  <Card.Img variant="top" src={demo1} />
+					  <Card.Img variant="top" src={project1} />
 					  <Card.Body>
 					    <Card.Title>Sharing Schedule Generator</Card.Title>
 					    <Card.Subtitle className="mb-2 text-muted">Java</Card.Subtitle>
@@ -63,18 +65,18 @@ export default function Projects() {
 					  </Card.Body>
 					</Card>
 					<Card>
-					  <Card.Img variant="top" src={demo2} />
+					  <Card.Img variant="top" src={project2} />
 					  <Card.Body>
 					    <Card.Title>Just a 2D Game</Card.Title>
 					    <Card.Subtitle className="mb-2 text-muted">Unity, C#</Card.Subtitle>
 					    <Card.Text>
-					      This game may seem like a simple platformer on first sight, but it has several hidden tricks and puzzles built in for the player to explore.
+					      This game may seem like a simple platformer on first sight, but it has several hidden tricks and puzzles built in for the player to explore. This game is published on Itch.io.
 					    </Card.Text>
 					    <Button variant="outline-primary" onClick = {() => setModalShow2(true)} >Learn More</Button>
 					  </Card.Body>
 					</Card>
 					<Card>
-					  <Card.Img variant="top" src={demo3} />
+					  <Card.Img variant="top" src={project3} />
 					  <Card.Body>
 					    <Card.Title>Online Management Platform</Card.Title>
 					    <Card.Subtitle className="mb-2 text-muted">PHP, SQL</Card.Subtitle>
@@ -89,47 +91,65 @@ export default function Projects() {
 				<ProjectsItem
 					show = {modalShow1}
 					onHide = {()=> setModalShow1(false)}
-					heading = "Sharing Schedule Generator"
-
+					heading = 	{
+									<div>
+										Sharing Schedule Generator
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						Java
+	                					</Badge>
+	                				</div>
+                				}
+					link = 'https://github.com/scheng20/sharing-schedule-generator'
+					image1 = {sharing1}
+					image2 = {sharing2}
+					summary = "While working as a marketing director for UBC BizTech, one thing I noticed is that the creation of our event sharing schedules is a very tedious and repetitive task. 
+							   Instead of continuing to create these schedules by hand, I decided to build a program that generates these schedules automatically, directly coding our marketing strategy 
+							   and scheduling algorithm into the program. The first version of the program was completed in May of 2019."
+					learnings = { 
+								  	<ul>
+								  		<li> Java </li>
+								  		<li> Eclipse Window Builder for creating the GUI </li>
+								  	</ul>
+								}
+					extrabutton = {
+									<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://www.dropbox.com/s/uq6aao92wstuu13/SharingScheduleGenerator.exe?dl=0' target="_blank" rel="noopener noreferrer">Try the Program</Button>
+								}
 				/>
 
 				<ProjectsItem
 					show = {modalShow2}
 					onHide = {()=> setModalShow2(false)}
+					heading = 	{
+									<div>
+										Just a 2D Game
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						Unity
+	                					</Badge>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						C#
+	                					</Badge>
+	                				</div>
+                				}
 					link = 'https://github.com/scheng20/just-a-2d-game'
 					image1 = {game1}
 					image2 = {game2}
-					summary = {
-								<div> 
-									<strong>Summary:</strong>
-								  	<br/>
-								  	<p>Over the summer of 2018, I built a small 2D puzzle platformer game using the Unity game engine. The same may seem like a simple platformer on first sight, 
-								       but it has several hidden tricks and puzzles built in for the player to explore.</p>
-								</div>
-								}
+					summary = "Over the summer of 2018, I built a small 2D puzzle platformer game using the Unity game engine. 
+							   It was definitely a great learning experience about the Unity engine and the game development process in general. 
+							   The game may seem like a simple platformer on first sight, but it has several hidden tricks and puzzles built in 
+							   for the player to explore."
 					learnings = { 
-								<div> 
-									<strong>What I learned: </strong>
 								  	<ul>
 								  		<li> How to build a game using Unity 2D </li>
 								  		<li> How to use particle effects in Unity </li>
-								  		<li> Basic C# </li>
+								  		<li> C# Syntax</li>
 								  		<li> Basic Level Design </li>
 								  	</ul>
-								 </div>
 								}
-					extrabutton = {<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://www.google.com' target="_blank">Play The Game</Button>}
-					heading = {<div>
-									Just a 2D Game
-									<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
-                  						Unity
-                					</Badge>
-                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
-                  						C#
-                					</Badge>
-                				</div>}
+					extrabutton = {
+									<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://yobolo.itch.io/just-a-2d-game' target="_blank" rel="noopener noreferrer">Play The Game</Button>
+								}
 				/>
-
+				
 			</Styles>
 		</div>
 	);

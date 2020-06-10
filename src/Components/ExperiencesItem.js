@@ -33,34 +33,34 @@ const Styles = styled.div`
 export default function ExperiencesItem(props) {
 
 	return (
-    	<div>
-    		<Styles>
+		<div>
+    	<Styles>
     		<br/>
     		<Card>
   				<Card.Body>
   					<Container>
-	                <Row>
-	                  <Col className="align-self-center text-center"> 
-	                 	<div className="zoom">
-	                 		<a href = {props.url} target="_blank" rel="noopener noreferrer">
-		                    <Image 
-		                    	src={props.image}
-		                    	width = {110}
-		                    	height = {110}
-		                    	rounded />
-		                    </a>
-	                    </div>
-	                  </Col>
-	                  <Col className = "align-self-center" xs = {10}>
-	                  	<h5>{props.heading}</h5>
-	                  	<h5 className="mb-2 text-muted">{props.company}</h5>
-	                    {props.desp}
-	                  </Col>
-	                </Row>
+		                <Row>
+		                  <Col className="align-self-center text-center"> 
+		                 	<div className="zoom">
+		                 		<a href = {props.url} target="_blank" rel="noopener noreferrer">
+			                    <Image 
+			                    	src={props.image}
+			                    	width = {110}
+			                    	height = {110}
+			                    	rounded />
+			                    </a>
+		                    </div>
+		                  </Col>
+		                  <Col className = "align-self-center" xs = {10}>
+		                  	<h5>{props.heading}</h5>
+		                  	<h5 style = {{"color" : "#6c6c6d"}}>{props.company}</h5>
+		                    <p>{props.desp}</p>
+		                  </Col>
+		                </Row>
 	              	</Container>
   				</Card.Body>
 			</Card>
-			</Styles>
+    	</Styles>
     	</div>
     );
 }
