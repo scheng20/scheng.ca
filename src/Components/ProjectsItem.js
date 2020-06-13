@@ -58,7 +58,7 @@ export default function ProjectsItem(props) {
               <Container>
                 <Row>
                   <Col className = "text-center"> 
-                    <Image src={props.image1} rounded fluid />              
+                    <Image src={props.image1} rounded fluid/>        
                   </Col>
                   <Col lg = {8}>
                     <strong>Summary:</strong>

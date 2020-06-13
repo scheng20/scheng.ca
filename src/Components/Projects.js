@@ -6,12 +6,18 @@ import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import ProjectsItem from "./ProjectsItem.js";
 import project1 from "../Assets/project1.gif";
-import project2 from "../Assets/project2.gif";
+import project2 from "../Assets/project2.png";
 import project3 from "../Assets/project3.gif";
+import project4 from "../Assets/project4.png";
+import project5 from "../Assets/project5.gif";
+import project6 from "../Assets/project6.gif";
 import game1 from "../Assets/Game1.png";
 import game2 from "../Assets/Game2.png";
 import sharing1 from "../Assets/Sharing1.png";
 import sharing2 from "../Assets/Sharing2.png";
+import manage1 from "../Assets/Management1.png";
+import manage2 from "../Assets/Management2.png";
+import afk2 from "../Assets/AFK2.png";
 
 const Styles = styled.div`
 	.btn-outline-primary {
@@ -24,6 +30,10 @@ const Styles = styled.div`
 		border-color: #e86100 !important;
 		background-color: #e86100 !important;
 		color: white !important;
+	}
+
+	.card-deck {
+		margin-bottom: 1rem;
 	}
 
 	.card-subtitle {
@@ -46,6 +56,10 @@ export default function Projects() {
 	// Project 1-6 modals
 	const [modalShow1, setModalShow1] = React.useState(false);
 	const [modalShow2, setModalShow2] = React.useState(false);
+	const [modalShow3, setModalShow3] = React.useState(false);
+	const [modalShow4, setModalShow4] = React.useState(false);
+	const [modalShow5, setModalShow5] = React.useState(false);
+	const [modalShow6, setModalShow6] = React.useState(false);
 
 	return (
 		<div>
@@ -56,10 +70,9 @@ export default function Projects() {
 					  <Card.Img variant="top" src={project1} />
 					  <Card.Body>
 					    <Card.Title>Sharing Schedule Generator</Card.Title>
-					    <Card.Subtitle className="mb-2 text-muted">Java</Card.Subtitle>
-					    
+					    <Card.Subtitle className="mb-2 text-muted">Java, WindowBuilder</Card.Subtitle>
 					    <Card.Text>
-					      A program that automatically generates sharing schedules based on event date and sharing groups. Currently being used as a marketing tool for UBC BizTech.
+					    	A program that automatically generates sharing schedules which are used to share club events to different Facebook groups. It is currently being used as a marketing tool for UBC BizTech, UBC's largest tech club.
 					    </Card.Text>
 					    <Button variant="outline-primary" onClick = {() => setModalShow1(true)}>Learn More</Button>
 					  </Card.Body>
@@ -67,12 +80,12 @@ export default function Projects() {
 					<Card>
 					  <Card.Img variant="top" src={project2} />
 					  <Card.Body>
-					    <Card.Title>Just a 2D Game</Card.Title>
-					    <Card.Subtitle className="mb-2 text-muted">Unity, C#</Card.Subtitle>
+					    <Card.Title>AFK (Away From Keyboard)</Card.Title>
+					    <Card.Subtitle className="mb-2 text-muted">JavaScript, HTML, CSS</Card.Subtitle>
 					    <Card.Text>
-					      This game may seem like a simple platformer on first sight, but it has several hidden tricks and puzzles built in for the player to explore. This game is published on Itch.io.
+					    	AFK is a chrome extension that allows users to control their web page navigation by voice. This project was one of the top 35 submissions for nwHacks2020, winning our team the “Wolfram Award”.  
 					    </Card.Text>
-					    <Button variant="outline-primary" onClick = {() => setModalShow2(true)} >Learn More</Button>
+					    <Button variant="outline-primary" onClick = {() => setModalShow2(true)}>Learn More</Button>
 					  </Card.Body>
 					</Card>
 					<Card>
@@ -81,9 +94,44 @@ export default function Projects() {
 					    <Card.Title>Online Management Platform</Card.Title>
 					    <Card.Subtitle className="mb-2 text-muted">PHP, SQL</Card.Subtitle>
 					    <Card.Text>
-					      A management platform for a wechat app. Features include: adding and removing insights, publishing articles, managing user comments, and viewing user statistics.
+					    	A management web-app for a stock analysis service. Features include: adding and removing stock insights, publishing articles, managing user comments, and viewing user statistics.
 					    </Card.Text>
-					    <Button variant="outline-primary">Learn More</Button>
+					    <Button variant="outline-primary" onClick = {() => setModalShow3(true)}>Learn More</Button>
+					  </Card.Body>
+					</Card>
+				</CardDeck>
+				<CardDeck>
+					<Card>
+					  <Card.Img variant="top" src={project4} />
+					  <Card.Body>
+					    <Card.Title>Schedule Assigner</Card.Title>
+					    <Card.Subtitle className="mb-2 text-muted">Java, JUnit, JavaFX</Card.Subtitle>
+					    <Card.Text>
+					    	TBD
+					    </Card.Text>
+					    <Button variant="outline-primary" onClick = {() => setModalShow4(true)}>Learn More</Button>
+					  </Card.Body>
+					</Card>
+					<Card>
+					  <Card.Img variant="top" src={project5} />
+					  <Card.Body>
+					    <Card.Title>Just a 2D Game</Card.Title>
+					    <Card.Subtitle className="mb-2 text-muted">Unity, C#</Card.Subtitle>
+					    <Card.Text>
+					    	This game may seem like a simple platformer on first sight, but it has several hidden tricks and puzzles built in for the player to explore. It’s the first Unity game I’ve created and it’s currently published on Itch.io.
+					    </Card.Text>
+					    <Button variant="outline-primary" onClick = {() => setModalShow5(true)}>Learn More</Button>
+					  </Card.Body>
+					</Card>
+					<Card>
+					  <Card.Img variant="top" src={project6} />
+					  <Card.Body>
+					    <Card.Title>Designed Websites</Card.Title>
+					    <Card.Subtitle className="mb-2 text-muted">WordPress</Card.Subtitle>
+					    <Card.Text>
+					    	I used to run a small web-design business: ITReliable with my family. I worked as a web designer, creating websites for our clients using WordPress and managed them using cPanel and phpMyAdmin. 
+					    </Card.Text>
+					    <Button variant="outline-primary" onClick = {() => setModalShow6(true)}>Learn More</Button>
 					  </Card.Body>
 					</Card>
 				</CardDeck>
@@ -97,18 +145,24 @@ export default function Projects() {
 										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
 	                  						Java
 	                					</Badge>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						WindowBuilder
+	                					</Badge>
 	                				</div>
                 				}
 					link = 'https://github.com/scheng20/sharing-schedule-generator'
 					image1 = {sharing1}
 					image2 = {sharing2}
-					summary = "While working as a marketing director for UBC BizTech, one thing I noticed is that the creation of our event sharing schedules is a very tedious and repetitive task. 
-							   Instead of continuing to create these schedules by hand, I decided to build a program that generates these schedules automatically, directly coding our marketing strategy 
-							   and scheduling algorithm into the program. The first version of the program was completed in May of 2019."
+					summary = "While working as a marketing director for UBC BizTech, I noticed that the creation of our event sharing schedules is a very tedious and repetitive task. 
+							   As a result, I decided to build a Java program that generates these schedules automatically, directly coding our marketing strategy and scheduling 
+							   algorithm into the program. I single handily wrote this program using Java and used Eclipse Window Builder for the GUI."
 					learnings = { 
 								  	<ul>
-								  		<li> Java </li>
+								  		<li> How to code in Java </li>
+								  		<li> Basic data structures and how to use them </li>
 								  		<li> Eclipse Window Builder for creating the GUI </li>
+								  		<li> Basic algorithms </li>
+								  		<li> Project planning </li>
 								  	</ul>
 								}
 					extrabutton = {
@@ -119,6 +173,100 @@ export default function Projects() {
 				<ProjectsItem
 					show = {modalShow2}
 					onHide = {()=> setModalShow2(false)}
+					heading = 	{
+									<div>
+										AFK (Away From Keyboard)
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						JavaScript
+	                					</Badge>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						HTML
+	                					</Badge>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						CSS
+	                					</Badge>
+	                				</div>
+                				}
+					link = 'https://github.com/scheng20/afk-chrome-extension'
+					image1 = {project2}
+					image2 = {afk2}
+					summary = 'Working in a team of 5, I was responsible for implementing the auto-scroll feature, which enabled a webpage to scroll down when the user reads the last words on screen out loud. 
+							   I implemented this feature using a text-scraping function written in JavaScript. Other commands of our extension include: "go down/up", "open/close tab", "go back/forward", 
+							   and "reload/refresh".'
+					learnings = { 
+								  	<ul>
+								  		<li> How to create a Chrome Extension</li>
+								  		<li> Basic JavaScript</li>
+								  		<li> Don't give up even if we had to switch ideas and start over halfway into the 24-hour hackathon :')</li>
+								  	</ul>
+								}
+					extrabutton = {
+									<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://devpost.com/software/afk-bec9g1' target="_blank" rel="noopener noreferrer">View on DevPost</Button>
+								}
+				/>
+
+				<ProjectsItem
+					show = {modalShow3}
+					onHide = {()=> setModalShow3(false)}
+					heading = 	{
+									<div>
+										Online Management Platform
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						PHP
+	                					</Badge>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						SQL
+	                					</Badge>
+	                				</div>
+                				}
+					link = 'https://github.com/scheng20/management-platform'
+					image1 = {manage1}
+					image2 = {manage2}
+					summary = "In summer of 2019, I received the opportunity to collaborate on the creation of a management site for a Chinese stock analysis service. 
+							   I was responsible for writing the back-end code that connected front-end inputs to back-end data changes in our MySQL database. 
+							   I used PHP and SQL queries to implement the backend."
+					learnings = { 
+								  	<ul>
+								  		<li> Basic PHP Syntax </li>
+								  		<li> How to write SQL Queries</li>
+								  		<li> Basic MySQL operations</li>
+								  	</ul>
+								}
+				/>
+
+				<ProjectsItem
+					show = {modalShow4}
+					onHide = {()=> setModalShow4(false)}
+					heading = 	{
+									<div>
+										Schedule Assigner
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						Java
+	                					</Badge>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						JUnit
+	                					</Badge>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						JavaFX
+	                					</Badge>
+	                				</div>
+                				}
+					link = 'https://github.com/scheng20/schedule-assigner'
+					image1 = {project4}
+					image2 = {project4}
+					summary = "TBD "
+					learnings = { 
+								  	<ul>
+								  		<li> Best design practices using Java </li>
+								  		<li> Testing my code using JUnit</li>
+								  		<li> How to build a GUI using JavaFX</li>
+								  	</ul>
+								}
+				/>
+
+				<ProjectsItem
+					show = {modalShow5}
+					onHide = {()=> setModalShow5(false)}
 					heading = 	{
 									<div>
 										Just a 2D Game
@@ -133,15 +281,15 @@ export default function Projects() {
 					link = 'https://github.com/scheng20/just-a-2d-game'
 					image1 = {game1}
 					image2 = {game2}
-					summary = "Over the summer of 2018, I built a small 2D puzzle platformer game using the Unity game engine. 
-							   It was definitely a great learning experience about the Unity engine and the game development process in general. 
-							   The game may seem like a simple platformer on first sight, but it has several hidden tricks and puzzles built in 
-							   for the player to explore."
+					summary = "Over the summer of 2018, I built a small 2D puzzle platformer game using the Unity game engine. I coded and designed all aspects of the 
+							   game using C#, some basic pixel art, and lots of YouTube tutorials. It was definitely a great learning experience about the Unity engine 
+							   and the game development process in general. "
 					learnings = { 
 								  	<ul>
-								  		<li> How to build a game using Unity 2D </li>
+								  		<li> How to create moveable characters in Unity</li>
+								  		<li> How to use a tiling system in Unity </li>
 								  		<li> How to use particle effects in Unity </li>
-								  		<li> C# Syntax</li>
+								  		<li> Basic C# Syntax</li>
 								  		<li> Basic Level Design </li>
 								  	</ul>
 								}
@@ -149,55 +297,31 @@ export default function Projects() {
 									<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://yobolo.itch.io/just-a-2d-game' target="_blank" rel="noopener noreferrer">Play The Game</Button>
 								}
 				/>
-				
+
+				<ProjectsItem
+					show = {modalShow6}
+					onHide = {()=> setModalShow6(false)}
+					heading = 	{
+									<div>
+										Designed Websites
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						WordPress
+	                					</Badge>
+	                				</div>
+                				}
+					image1 = {project6}
+					image2 = {project6}
+					summary = "TBD "
+					learnings = { 
+								  	<ul>
+								  		<li> Something </li>
+								  	</ul>
+								}
+					extrabutton = {
+									<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://www.itreliable.com/wp/our-work/' target="_blank" rel="noopener noreferrer">View Websites</Button>
+								}
+				/>
 			</Styles>
 		</div>
 	);
 }
-
-// OLD TUTORIAL STYLE
-/*
-export const Projects = () => (
-
-	<div>
-		<Styles>
-			<h1 style = {{'margin-bottom': '2rem', 'color': '#e86100'}}> My Projects </h1>
-
-			<CardDeck>
-				<Card style={{ width: '20rem' }}>
-				  <Card.Img variant="top" src={demo1} />
-				  <Card.Body>
-				    <Card.Title>Sharing Schedule Generator</Card.Title>
-				    <Card.Subtitle className="mb-2 text-muted">Java</Card.Subtitle>
-				    <Card.Text>
-				      A program that automatically generates sharing schedules based on event date and sharing groups. Currently being used as a marketing tool for UBC BizTech.
-				    </Card.Text>
-				    <Button variant="outline-primary">Learn More</Button>
-				  </Card.Body>
-				</Card>
-				<Card style={{ width: '20rem' }}>
-				  <Card.Img variant="top" src={demo2} />
-				  <Card.Body>
-				    <Card.Title>Just a 2D Game</Card.Title>
-				    <Card.Subtitle className="mb-2 text-muted">Unity, C#</Card.Subtitle>
-				    <Card.Text>
-				      This game may seem like a simple platformer on first sight, but it has several hidden tricks and puzzles built in for the player to explore.
-				    </Card.Text>
-				    <Button variant="outline-primary">Learn More</Button>
-				  </Card.Body>
-				</Card>
-				<Card style={{ width: '20rem' }}>
-				  <Card.Img variant="top" src={demo3} />
-				  <Card.Body>
-				    <Card.Title>Sharing Schedule Generator</Card.Title>
-				    <Card.Subtitle className="mb-2 text-muted">PHP, SQL</Card.Subtitle>
-				    <Card.Text>
-				      A management platform for a wechat app. Features include: adding and removing insights, publishing articles, managing user comments, and viewing user statistics.
-				    </Card.Text>
-				    <Button variant="outline-primary">Learn More</Button>
-				  </Card.Body>
-				</Card>
-			</CardDeck>
-		</Styles>
-	</div>
-) */
