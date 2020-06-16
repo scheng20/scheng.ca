@@ -17,6 +17,10 @@ import sharing1 from "../Assets/Sharing1.png";
 import sharing2 from "../Assets/Sharing2.png";
 import manage1 from "../Assets/Management1.png";
 import manage2 from "../Assets/Management2.png";
+import assigner1 from "../Assets/Assigner1.png";
+import assigner2 from "../Assets/Assigner2.png";
+import it1 from "../Assets/IT1.png";
+import it2 from "../Assets/IT2.png";
 import afk2 from "../Assets/AFK2.png";
 
 const Styles = styled.div`
@@ -105,9 +109,9 @@ export default function Projects() {
 					  <Card.Img variant="top" src={project4} />
 					  <Card.Body>
 					    <Card.Title>Schedule Assigner</Card.Title>
-					    <Card.Subtitle className="mb-2 text-muted">Java, JUnit, JavaFX</Card.Subtitle>
+					    <Card.Subtitle className="mb-2 text-muted">Java, JavaFX, JUnit</Card.Subtitle>
 					    <Card.Text>
-					    	TBD
+					    	Works as an add-on to my “Sharing Schedule Generator” project. Takes a list of names and a sharing schedule in the form of .txt files, then outputs an assigned schedule showing who should share in what group and when.
 					    </Card.Text>
 					    <Button variant="outline-primary" onClick = {() => setModalShow4(true)}>Learn More</Button>
 					  </Card.Body>
@@ -127,7 +131,7 @@ export default function Projects() {
 					  <Card.Img variant="top" src={project6} />
 					  <Card.Body>
 					    <Card.Title>Designed Websites</Card.Title>
-					    <Card.Subtitle className="mb-2 text-muted">WordPress</Card.Subtitle>
+					    <Card.Subtitle className="mb-2 text-muted">WordPress, Elementor</Card.Subtitle>
 					    <Card.Text>
 					    	I used to run a small web-design business: ITReliable with my family. I worked as a web designer, creating websites for our clients using WordPress and managed them using cPanel and phpMyAdmin. 
 					    </Card.Text>
@@ -244,20 +248,24 @@ export default function Projects() {
 	                  						Java
 	                					</Badge>
 	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
-	                  						JUnit
+	                  						JavaFX
 	                					</Badge>
 	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
-	                  						JavaFX
+	                  						JUnit
 	                					</Badge>
 	                				</div>
                 				}
 					link = 'https://github.com/scheng20/schedule-assigner'
-					image1 = {project4}
-					image2 = {project4}
-					summary = "TBD "
+					image1 = {assigner1}
+					image2 = {assigner2}
+					summary = "This was my final project for the CPSC 210: Software Construction Course I took at UBC. Although I have built software prior to the course, 
+							   I learned how to truly design programs instead of just piecing code together after CPSC 210. This project was a learning experience on 
+							   how to design, test, and write cohesive code to create truly robust programs. I used Java to write the algorithms, JavaFX to build the GUI, 
+							   and tested my code using JUnit."
 					learnings = { 
 								  	<ul>
-								  		<li> Best design practices using Java </li>
+								  		<li> Object-oriented design principles (Single Responsibility Principle, Liskov Substitution Principle)</li>
+								  		<li> Writing robust programs and throwing exceptions</li>
 								  		<li> Testing my code using JUnit</li>
 								  		<li> How to build a GUI using JavaFX</li>
 								  	</ul>
@@ -307,19 +315,26 @@ export default function Projects() {
 										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
 	                  						WordPress
 	                					</Badge>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                  						Elementor
+	                					</Badge>
 	                				</div>
                 				}
-					image1 = {project6}
-					image2 = {project6}
-					summary = "TBD "
+                	link = 'https://www.itreliable.com/wp/'
+					image1 = {it1}
+					image2 = {it2}
+					summary = "While working as a web designer for ITReliable, I was able to create websites for all kinds of clients including renovators, restaurants, and accountants. 
+							   I also provided technical support and customer service for our clients, ensuring that they are satisfied with their website. Eventually I stopped using 
+							   WordPress to create websites and taught myself JavaScript, HTML, CSS and React to create more dynamic websites like this site!"
 					learnings = { 
 								  	<ul>
-								  		<li> Something </li>
+								  		<li> Basic Web Design </li>
+								  		<li> Webpage management </li>
+								  		<li> Domain management </li>
+								  		<li> IT Troubleshooting </li>
 								  	</ul>
 								}
-					extrabutton = {
-									<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://www.itreliable.com/wp/our-work/' target="_blank" rel="noopener noreferrer">View Websites</Button>
-								}
+					customText = "View Websites"
 				/>
 			</Styles>
 		</div>

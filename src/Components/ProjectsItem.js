@@ -57,7 +57,7 @@ export default function ProjectsItem(props) {
               <Styles>
               <Container>
                 <Row>
-                  <Col className = "text-center"> 
+                  <Col className = "align-self-center text-center"> 
                     <Image src={props.image1} rounded fluid/>        
                   </Col>
                   <Col lg = {8}>
@@ -67,7 +67,7 @@ export default function ProjectsItem(props) {
                   </Col>
                 </Row>
                 <Row>
-                  <Col className = "text-center">
+                  <Col className = "align-self-center text-center">
                     <Image src={props.image2} rounded fluid />
                   </Col>
                   <Col lg = {8}>
@@ -80,7 +80,7 @@ export default function ProjectsItem(props) {
             </Modal.Body>
             <Modal.Footer>
               {props.extrabutton}
-              <Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href={props.link} target="_blank" rel="noopener noreferrer">View on GitHub</Button>
+              <Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href={props.link} target="_blank" rel="noopener noreferrer">{props.customText || "View on GitHub"}</Button>
             </Modal.Footer>
         </Modal>
     </div>

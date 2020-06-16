@@ -44,13 +44,13 @@ export default function Skills() {
 				  <Card.Body>
 			      	<b>Languages:</b>
 			      		<ul>
+			      			<li>Javascript</li>
+					  		<li>HTML</li>
+					  		<li>CSS</li>
 					  		<li>Python</li>
 					  		<li>C#</li>
 					  		<li>C++</li>
 					  		<li>PHP</li>
-					  		<li>Javascript</li>
-					  		<li>HTML</li>
-					  		<li>CSS</li>
 						</ul>
 					<b>Tools & Frameworks:</b>
 						<ul>
