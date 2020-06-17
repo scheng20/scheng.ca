@@ -86,15 +86,15 @@ export default function Contact() {
 							<MdEmail size = {25}/>
 						</Button>
 
-						<Button className="btn-linkedin" href="https://www.linkedin.com/in/sheena-cheng/" target="_blank">
+						<Button className="btn-linkedin" href="https://www.linkedin.com/in/sheena-cheng/" target="_blank" rel="noopener noreferrer">
 							<FaLinkedinIn size = {25}/>
 						</Button>
 
-						<Button className="btn-github" href="https://github.com/scheng20" target="_blank">
+						<Button className="btn-github" href="https://github.com/scheng20" target="_blank" rel="noopener noreferrer">
 							<FaGithub size = {25}/>
 						</Button>
 						
-						{/* <Button className="btn-resume" href="" target="_blank">
+						{/* <Button className="btn-resume" href="" target="_blank" rel="noopener noreferrer">
 							<FaFileAlt size = {25}/>
 						</Button> */}
 					</Row>
