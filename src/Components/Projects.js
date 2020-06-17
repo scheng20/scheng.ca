@@ -8,7 +8,7 @@ import ProjectsItem from "./ProjectsItem.js";
 import project1 from "../Assets/project1.gif";
 import project2 from "../Assets/project2.png";
 import project3 from "../Assets/project3.gif";
-import project4 from "../Assets/project4.png";
+import project4 from "../Assets/project4.gif";
 import project5 from "../Assets/project5.gif";
 import project6 from "../Assets/project6.gif";
 import game1 from "../Assets/Game1.png";
