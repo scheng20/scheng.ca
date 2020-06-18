@@ -6,35 +6,16 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import styled from 'styled-components';
+import ModalImage from "react-modal-image";
 
 const Styles = styled.div`
-  
-  /* xs */
   img {
-      width: 80%;
-      height: auto;
-      margin-bottom: 2rem;
-  }
+    margin-bottom: 2rem;
+    transition: transform .2s;
 
-  /* sm */
-  @media (min-width: 768px) {
-      img {
-          width: 80%;
-      }
-  }
-
-  /* md */
-  @media (min-width: 992px) {
-      img {
-          width: 100%;
-      }
-  }
-
-  /* lg */
-  @media (min-width: 1200px) {
-      img {
-          width: 100%;
-      }
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 `
 
@@ -58,7 +39,11 @@ export default function ProjectsItem(props) {
               <Container>
                 <Row>
                   <Col className = "align-self-center text-center"> 
-                    <Image src={props.image1} rounded fluid/>        
+                    <ModalImage
+                      small={props.image1}
+                      large = {props.image1} 
+                      hideDownload = {true}
+                    />
                   </Col>
                   <Col lg = {8}>
                     <strong>Summary:</strong>
@@ -66,9 +51,14 @@ export default function ProjectsItem(props) {
                     <p>{props.summary}</p>
                   </Col>
                 </Row>
+                <br/>
                 <Row>
                   <Col className = "align-self-center text-center">
-                    <Image src={props.image2} rounded fluid />
+                    <ModalImage
+                      small={props.image2}
+                      large = {props.image2} 
+                      hideDownload = {true}
+                    />
                   </Col>
                   <Col lg = {8}>
                     <strong>What I learned: </strong>

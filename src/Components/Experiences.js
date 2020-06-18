@@ -146,6 +146,17 @@ export default class Experiences extends React.Component {
 				    </div>
 				    <div>
 					    <ExperiencesItem
+				     		heading = "Web Developer"
+				     		company = "UBC Table Tennis Club"
+				     		image = {UBCTTC}
+				     		url = 'http://www.ubctabletennisclub.org/'
+				     		desp = "Working with a team of web developers, we are building the UBC Table Tennis Club 
+				     				website using Ruby on Rails, HTML, CSS, JavaScript, Heroku and PostgreSQL. 
+				     				I am responsible for building the front-end using HTML, CSS and Javascript. 
+				     				In addition, I occasionally assist with the back-end configuration of our 
+				     				Heroku database."
+					     />
+					    <ExperiencesItem
 					     	heading = "Developer"
 					     	company = "ProToGo Technologies Inc."
 					     	image = {ProToGo}
@@ -156,17 +167,6 @@ export default class Experiences extends React.Component {
 					     			web app and connect the front-end to reflect and store changes into our 
 					     			back-end Firebase."
 					    />
-				    	<ExperiencesItem
-				     		heading = "Web Developer"
-				     		company = "UBC Table Tennis Club"
-				     		image = {UBCTTC}
-				     		url = 'http://ttcan.ca/'
-				     		desp = "Working with a team of web developers, we are building the UBC Table Tennis Club 
-				     				website using Ruby on Rails, HTML, CSS, JavaScript, Heroku and PostgreSQL. 
-				     				I am responsible for building the front-end using HTML, CSS and Javascript. 
-				     				In addition, I occasionally assist with the back-end configuration of our 
-				     				Heroku database."
-				     	/>
 				    </div>
 				    <div>
 					    <ExperiencesItem

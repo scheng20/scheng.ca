@@ -11,13 +11,13 @@ const Styles = styled.div`
 		font-size: 1.1rem;
 	}
 
-	.zoom {
-	  transition: transform .2s; /* Animation */
-	}
+	img {
+    	transition: transform .2s;
 
-	.zoom:hover {
-  		transform: scale(1.2); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-	}
+	    &:hover {
+	      transform: scale(1.25);
+	    }
+  	}
 
 	.col {
 		margin-top: 2rem;
@@ -41,15 +41,13 @@ export default function ExperiencesItem(props) {
   					<Container>
 		                <Row>
 		                  <Col className="align-self-center text-center"> 
-		                 	<div className="zoom">
-		                 		<a href = {props.url} target="_blank" rel="noopener noreferrer">
-			                    <Image 
-			                    	src={props.image}
-			                    	width = {110}
-			                    	height = {110}
-			                    	rounded />
-			                    </a>
-		                    </div>
+	                 		<a href = {props.url} target="_blank" rel="noopener noreferrer">
+		                    <Image 
+		                    	src={props.image}
+		                    	width = {110}
+		                    	height = {110}
+		                    	rounded />
+		                    </a>
 		                  </Col>
 		                  <Col className = "align-self-center" xs = {10}>
 		                  	<h5>{props.heading}</h5>
