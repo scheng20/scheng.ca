@@ -24,7 +24,7 @@ export default function Skills() {
 			<h1> Skills </h1>
 			<CardColumns>
 				<Card>
-				  <Card.Header as= "h6"><Emoji symbol="🌟"/> I can confidently build something with: <br/><br/></Card.Header>
+				  <Card.Header as= "h6"><Emoji symbol="🌟"/> I can confidently build something with:</Card.Header>
 				  <Card.Body>
 			      	<b>Languages:</b>
 				      	<ul>
@@ -40,7 +40,7 @@ export default function Skills() {
 				  </Card.Body>
 				</Card>
 				<Card>
-				  <Card.Header as= "h6"><Emoji symbol="🔍"/> With minor reference to documentation, I can use: </Card.Header>
+				  <Card.Header as= "h6"><Emoji symbol="🔍"/> With some reference to documentation, I can use: </Card.Header>
 				  <Card.Body>
 			      	<b>Languages:</b>
 			      		<ul>
@@ -63,7 +63,7 @@ export default function Skills() {
 				  </Card.Body>
 				</Card>
 				<Card>
-				  <Card.Header as= "h6"><Emoji symbol="🧠"/> I am still learning: <br/><br/></Card.Header>
+				  <Card.Header as= "h6"><Emoji symbol="🧠"/> I am still learning:</Card.Header>
 				  <Card.Body>
 			      	<b>Languages:</b>
 			      		<ul>

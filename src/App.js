@@ -9,9 +9,7 @@ import styled from 'styled-components';
 // Font of website
 const Styles = styled.div`
   *{
-
-    font-family: Segoe UI;
-    
+    font-family: Roboto, Segoe UI, sans-serif
   }
 
 `;
