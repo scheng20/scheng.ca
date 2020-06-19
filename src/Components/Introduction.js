@@ -43,11 +43,20 @@ const Styles = styled.div`
 	img {
 		display:block;
     	margin:auto;
+    	width: 330px;
 	}
 
 	.col {
 		margin-top: 2rem;
     	margin-bottom: 2rem;
+	}
+
+	}
+
+	@media (min-width: 1200px) {
+		.custom {
+			margin-left : 2rem;
+		}
 	}
 `;
 
@@ -58,14 +67,10 @@ export default function Introduction() {
 		<div>
 			<Styles>
                 <Row className="justify-content-center">
-                  <Col className="align-self-center" > 
-                    <Image
-                    	src={pic} 
-                    	width = {330}
-		                height = {330}
-                    	roundedCircle  />
+                  <Col xl = {4} className="align-self-center" > 
+                    <Image src={pic} roundedCircle />
                   </Col>
-                  <Col lg = {8} className="align-self-center" >
+                  <Col className="align-self-center custom">
                     <h1> Nice to meet you! </h1>
 					<p>
 					My name is Sheena and I’m a third year student studying <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank" rel="noopener noreferrer">business and computer science (BUCS)</a> at 
