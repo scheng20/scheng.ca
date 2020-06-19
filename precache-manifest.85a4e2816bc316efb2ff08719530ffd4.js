@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e367f61247c0e354cff2ae642be8a360",
+    "revision": "43662c2e3d0decbe6cec20738ea5ae03",
     "url": "/scheng.ca/index.html"
   },
   {
-    "revision": "ed935eebfabc5ff25d10",
-    "url": "/scheng.ca/static/css/main.5ecd60fb.chunk.css"
+    "revision": "54d507143c2d0cef796d",
+    "url": "/scheng.ca/static/css/main.76de841e.chunk.css"
   },
   {
     "revision": "5e2f9705ec4f8410b53c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scheng.ca/static/js/2.4f7948ff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed935eebfabc5ff25d10",
-    "url": "/scheng.ca/static/js/main.4cc801c6.chunk.js"
+    "revision": "54d507143c2d0cef796d",
+    "url": "/scheng.ca/static/js/main.8ed37687.chunk.js"
   },
   {
     "revision": "f318b584db0cfdbaf61c",
@@ -66,6 +66,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fd014d1aee627288fe79064c389bc108",
     "url": "/scheng.ca/static/media/ProToGo.fd014d1a.png"
+  },
+  {
+    "revision": "e07df86cef2e721115583d61d1fb68a6",
+    "url": "/scheng.ca/static/media/Roboto-Bold.e07df86c.ttf"
+  },
+  {
+    "revision": "5b44818d2b9eda3e23cd5edd7b49b7d5",
+    "url": "/scheng.ca/static/media/Roboto-BoldItalic.5b44818d.ttf"
+  },
+  {
+    "revision": "a720f17aa773e493a7ebf8b08459e66c",
+    "url": "/scheng.ca/static/media/Roboto-Italic.a720f17a.ttf"
+  },
+  {
+    "revision": "58aef543c97bbaf6a9896e8484456d98",
+    "url": "/scheng.ca/static/media/Roboto-Medium.58aef543.ttf"
+  },
+  {
+    "revision": "cf23e1bb619029496260760b72aebd30",
+    "url": "/scheng.ca/static/media/Roboto-MediumItalic.cf23e1bb.ttf"
+  },
+  {
+    "revision": "11eabca2251325cfc5589c9c6fb57b46",
+    "url": "/scheng.ca/static/media/Roboto-Regular.11eabca2.ttf"
   },
   {
     "revision": "572de3a6de755efa7da4b2b9f5ddfbc3",

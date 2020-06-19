@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/scheng.ca/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/scheng.ca/static/js/main.4cc801c6.chunk.js",
-    "main.js.map": "/scheng.ca/static/js/main.4cc801c6.chunk.js.map",
+    "main.css": "/scheng.ca/static/css/main.76de841e.chunk.css",
+    "main.js": "/scheng.ca/static/js/main.8ed37687.chunk.js",
+    "main.js.map": "/scheng.ca/static/js/main.8ed37687.chunk.js.map",
     "runtime-main.js": "/scheng.ca/static/js/runtime-main.1d503f32.js",
     "runtime-main.js.map": "/scheng.ca/static/js/runtime-main.1d503f32.js.map",
     "static/js/2.4f7948ff.chunk.js": "/scheng.ca/static/js/2.4f7948ff.chunk.js",
     "static/js/2.4f7948ff.chunk.js.map": "/scheng.ca/static/js/2.4f7948ff.chunk.js.map",
     "index.html": "/scheng.ca/index.html",
-    "precache-manifest.b7bc62c89408e769a120b81c2db97eac.js": "/scheng.ca/precache-manifest.b7bc62c89408e769a120b81c2db97eac.js",
+    "precache-manifest.85a4e2816bc316efb2ff08719530ffd4.js": "/scheng.ca/precache-manifest.85a4e2816bc316efb2ff08719530ffd4.js",
     "service-worker.js": "/scheng.ca/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/scheng.ca/static/css/main.5ecd60fb.chunk.css.map",
+    "static/css/main.76de841e.chunk.css.map": "/scheng.ca/static/css/main.76de841e.chunk.css.map",
     "static/js/2.4f7948ff.chunk.js.LICENSE.txt": "/scheng.ca/static/js/2.4f7948ff.chunk.js.LICENSE.txt",
     "static/media/AFK2.png": "/scheng.ca/static/media/AFK2.c792b0aa.png",
     "static/media/Assigner1.png": "/scheng.ca/static/media/Assigner1.2b34bd73.png",
@@ -23,6 +23,7 @@
     "static/media/Management2.png": "/scheng.ca/static/media/Management2.6f67c8fb.png",
     "static/media/MathPickle.png": "/scheng.ca/static/media/MathPickle.acf3c04f.png",
     "static/media/ProToGo.png": "/scheng.ca/static/media/ProToGo.fd014d1a.png",
+    "static/media/index.css": "/scheng.ca/static/media/Roboto-Regular.11eabca2.ttf",
     "static/media/SHAD.png": "/scheng.ca/static/media/SHAD.572de3a6.png",
     "static/media/SWCLaunchX.png": "/scheng.ca/static/media/SWCLaunchX.631e85eb.png",
     "static/media/Sharing1.png": "/scheng.ca/static/media/Sharing1.76e29d9b.png",
@@ -40,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.1d503f32.js",
     "static/js/2.4f7948ff.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.4cc801c6.chunk.js"
+    "static/css/main.76de841e.chunk.css",
+    "static/js/main.8ed37687.chunk.js"
   ]
 }
