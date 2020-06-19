@@ -49,7 +49,7 @@ export default function ExperiencesItem(props) {
 		                    	rounded />
 		                    </a>
 		                  </Col>
-		                  <Col className = "align-self-center" xs = {10}>
+		                  <Col className = "align-self-center" xl = {10}>
 		                  	<h5>{props.heading}</h5>
 		                  	<h5 style = {{"color" : "#6c6c6d"}}>{props.company}</h5>
 		                    <p>{props.desp}</p>
