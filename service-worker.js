@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/scheng.ca/precache-manifest.85a4e2816bc316efb2ff08719530ffd4.js"
+  "/scheng.ca/precache-manifest.4722686426d5c39a1eb12c2384ae0cb1.js"
 );
 
 self.addEventListener('message', (event) => {
