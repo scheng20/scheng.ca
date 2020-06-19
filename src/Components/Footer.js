@@ -1,16 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
 import Emoji from './Emoji.js'
 
 const Styles = styled.div `
-	.navbar {
-		background-color: #262626;
-	}
 
-	.navbar-text {
-	  	width: 100%;
-	 	color: white;
+	.container-fluid {
+		display: inline-block;
+		background-color: #262626;
+		color: white;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
 `;
 
@@ -18,13 +19,9 @@ export default function Footer() {
 
 	return (
 		<Styles>
-		<Navbar expand="lg">
-			<Navbar.Collapse id = "basic-navbar-nav" className = "text-center">
-				<Navbar.Text>
-				 Made with <Emoji symbol="😎🍍"/>, React, and React Bootstrap • © Sheena Cheng {new Date().getFullYear()}
-				</Navbar.Text>
-			</Navbar.Collapse>
-		</Navbar>
+			<Container fluid className = "text-center">
+				Made with <Emoji symbol="😎🍍"/>, React, and React Bootstrap • © Sheena Cheng {new Date().getFullYear()}
+			</Container>
 		</Styles>
 	);
 }
