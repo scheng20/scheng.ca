@@ -165,10 +165,10 @@ export default function Projects() {
 					title = "Sharing Schedule Generator"
 					badges = 	{
 									<div>
-										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						Java
 	                					</Badge>
-	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						WindowBuilder
 	                					</Badge>
 	                				</div>
@@ -199,13 +199,13 @@ export default function Projects() {
 					title = "AFK (Away From Keyboard)"
 					badges = 	{
 									<div>
-										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						JavaScript
 	                					</Badge>
-	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						HTML
 	                					</Badge>
-	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						CSS
 	                					</Badge>
 	                				</div>
@@ -234,10 +234,10 @@ export default function Projects() {
 					title = "Online Management Platform"
 					badges = 	{
 									<div>
-										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						PHP
 	                					</Badge>
-	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						SQL
 	                					</Badge>
 	                				</div>
@@ -263,13 +263,13 @@ export default function Projects() {
 					title = "Schedule Assigner"
 					badges = 	{
 									<div>
-										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						Java
 	                					</Badge>
-	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						JavaFX
 	                					</Badge>
-	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						JUnit
 	                					</Badge>
 	                				</div>
@@ -297,10 +297,10 @@ export default function Projects() {
 					title = "Just a 2D Game"
 					badges = 	{
 									<div>
-										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						Unity
 	                					</Badge>
-	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						C#
 	                					</Badge>
 	                				</div>
@@ -331,10 +331,10 @@ export default function Projects() {
 					title = "Designed Websites"
 					badges = 	{
 									<div>
-										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						WordPress
 	                					</Badge>
-	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
+	                					<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-right' : '0.5rem'}}>
 	                  						Elementor
 	                					</Badge>
 	                				</div>

@@ -32,10 +32,10 @@ export default function ProjectsItem(props) {
               <Modal.Title id="contained-modal-title">
                 <Container>
                   <Row>
-                    <Col lg = "auto">
+                    <Col lg = "auto" style = {{'padding-right' : '0px'}}>
                       {props.title}
                     </Col>
-                    <Col style = {{'padding-left' : '0px'}}>
+                    <Col>
                       {props.badges}
                     </Col>
                   </Row>
