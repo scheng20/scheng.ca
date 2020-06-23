@@ -29,8 +29,17 @@ export default function ProjectsItem(props) {
             centered
           >
             <Modal.Header closeButton>
-              <Modal.Title id="contained-modal-title-vcenter">
-                {props.heading}
+              <Modal.Title id="contained-modal-title">
+                <Container>
+                  <Row>
+                    <Col lg = "auto">
+                      {props.title}
+                    </Col>
+                    <Col style = {{'padding-left' : '0px'}}>
+                      {props.badges}
+                    </Col>
+                  </Row>
+                </Container>
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>

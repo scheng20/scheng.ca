@@ -162,9 +162,9 @@ export default function Projects() {
 				<ProjectsItem
 					show = {modalShow1}
 					onHide = {()=> setModalShow1(false)}
-					heading = 	{
+					title = "Sharing Schedule Generator"
+					badges = 	{
 									<div>
-										Sharing Schedule Generator
 										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
 	                  						Java
 	                					</Badge>
@@ -196,9 +196,9 @@ export default function Projects() {
 				<ProjectsItem
 					show = {modalShow2}
 					onHide = {()=> setModalShow2(false)}
-					heading = 	{
+					title = "AFK (Away From Keyboard)"
+					badges = 	{
 									<div>
-										AFK (Away From Keyboard)
 										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
 	                  						JavaScript
 	                					</Badge>
@@ -231,9 +231,9 @@ export default function Projects() {
 				<ProjectsItem
 					show = {modalShow3}
 					onHide = {()=> setModalShow3(false)}
-					heading = 	{
+					title = "Online Management Platform"
+					badges = 	{
 									<div>
-										Online Management Platform
 										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
 	                  						PHP
 	                					</Badge>
@@ -260,9 +260,9 @@ export default function Projects() {
 				<ProjectsItem
 					show = {modalShow4}
 					onHide = {()=> setModalShow4(false)}
-					heading = 	{
+					title = "Schedule Assigner"
+					badges = 	{
 									<div>
-										Schedule Assigner
 										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
 	                  						Java
 	                					</Badge>
@@ -294,9 +294,9 @@ export default function Projects() {
 				<ProjectsItem
 					show = {modalShow5}
 					onHide = {()=> setModalShow5(false)}
-					heading = 	{
+					title = "Just a 2D Game"
+					badges = 	{
 									<div>
-										Just a 2D Game
 										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
 	                  						Unity
 	                					</Badge>
@@ -328,9 +328,9 @@ export default function Projects() {
 				<ProjectsItem
 					show = {modalShow6}
 					onHide = {()=> setModalShow6(false)}
-					heading = 	{
+					title = "Designed Websites"
+					badges = 	{
 									<div>
-										Designed Websites
 										<Badge pill style = {{'backgroundColor': '#e86100', 'color' : 'white', 'fontSize' : '0.9rem', 'margin-left' : '0.5rem'}}>
 	                  						WordPress
 	                					</Badge>
