@@ -72,13 +72,19 @@ const Styles = styled.div`
 		margin-bottom: 2rem;
 	}
 
+	@media only screen and (max-width: 600px) {
+		.custom {
+			text-align: center;
+		}
+	}
+
 `;
 
 export default function Contact() {
 	return (
 		<div>
 			<Styles>			
-				<h1>Contact Me</h1>
+				<h1 className = "custom">Contact Me</h1>
 				<Container className="text-center">
 					<p> Want to get in touch? Reach out to me on any of these platforms: <Emoji symbol="📲"/></p>
 					<Row className="justify-content-center">

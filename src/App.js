@@ -4,20 +4,10 @@ import {NotFound} from './Components/NotFound';
 import Home from './Components/Home';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import styled from 'styled-components';
-
-// Font of website
-const Styles = styled.div`
-  *{
-    font-family: Roboto, Segoe UI, sans-serif
-  }
-
-`;
 
 function App() {
   return (
     <React.Fragment>
-      <Styles>
         <Header/>
         <Router>
           <Switch>
@@ -29,7 +19,6 @@ function App() {
           </Switch>
         </Router>
         <Footer/>
-      </Styles>
     </React.Fragment>
   );
 }

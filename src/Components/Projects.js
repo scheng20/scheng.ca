@@ -53,6 +53,13 @@ const Styles = styled.div`
 	.card {
 		margin-bottom: 2rem;
 	}
+
+	.card-footer {
+		background-color: white;
+		border-top: none;
+		padding-top: 0px;
+		padding-bottom: 1rem;
+	}
 `;
 
 export default function Projects() {
@@ -78,8 +85,10 @@ export default function Projects() {
 					    <Card.Text>
 					    	A program that automatically generates sharing schedules which are used to share club events to different Facebook groups. It is currently being used as a marketing tool for UBC BizTech, UBC's largest tech club.
 					    </Card.Text>
-					    <Button variant="outline-primary" onClick = {() => setModalShow1(true)}>Learn More</Button>
 					  </Card.Body>
+					  <Card.Footer>
+					  	<Button variant="outline-primary" onClick = {() => setModalShow1(true)}>Learn More</Button>
+					  </Card.Footer>
 					</Card>
 					<Card>
 					  <Card.Img variant="top" src={project2} />
@@ -89,8 +98,10 @@ export default function Projects() {
 					    <Card.Text>
 					    	AFK is a chrome extension that allows users to control their web page navigation by voice. This project was one of the top 35 submissions for nwHacks2020, winning our team the “Wolfram Award”.  
 					    </Card.Text>
-					    <Button variant="outline-primary" onClick = {() => setModalShow2(true)}>Learn More</Button>
 					  </Card.Body>
+					  <Card.Footer>
+					  	<Button variant="outline-primary" onClick = {() => setModalShow2(true)}>Learn More</Button>
+					  </Card.Footer>
 					</Card>
 					<Card>
 					  <Card.Img variant="top" src={project3} />
@@ -100,8 +111,10 @@ export default function Projects() {
 					    <Card.Text>
 					    	A management web-app for a stock analysis service. Features include: adding and removing stock insights, publishing articles, managing user comments, and viewing user statistics.
 					    </Card.Text>
-					    <Button variant="outline-primary" onClick = {() => setModalShow3(true)}>Learn More</Button>
 					  </Card.Body>
+					  <Card.Footer>
+					  	<Button variant="outline-primary" onClick = {() => setModalShow3(true)}>Learn More</Button>
+					  </Card.Footer>
 					</Card>
 				</CardDeck>
 				<CardDeck>
@@ -113,8 +126,10 @@ export default function Projects() {
 					    <Card.Text>
 					    	Works as an add-on to my “Sharing Schedule Generator” project. Takes a list of names and a sharing schedule in the form of .txt files, then outputs an assigned schedule showing who should share in what group and when.
 					    </Card.Text>
-					    <Button variant="outline-primary" onClick = {() => setModalShow4(true)}>Learn More</Button>
 					  </Card.Body>
+					  <Card.Footer>
+					  	<Button variant="outline-primary" onClick = {() => setModalShow4(true)}>Learn More</Button>
+					  </Card.Footer>
 					</Card>
 					<Card>
 					  <Card.Img variant="top" src={project5} />
@@ -124,8 +139,10 @@ export default function Projects() {
 					    <Card.Text>
 					    	This game may seem like a simple platformer on first sight, but it has several hidden tricks and puzzles built in for the player to explore. It’s the first Unity game I’ve created and it’s currently published on Itch.io.
 					    </Card.Text>
-					    <Button variant="outline-primary" onClick = {() => setModalShow5(true)}>Learn More</Button>
 					  </Card.Body>
+					  <Card.Footer>
+					  	<Button variant="outline-primary" onClick = {() => setModalShow5(true)}>Learn More</Button>
+					  </Card.Footer>
 					</Card>
 					<Card>
 					  <Card.Img variant="top" src={project6} />
@@ -135,8 +152,10 @@ export default function Projects() {
 					    <Card.Text>
 					    	I used to run a small web-design business: ITReliable with my family. I worked as a web designer, creating websites for our clients using WordPress and managed them using cPanel and phpMyAdmin. 
 					    </Card.Text>
-					    <Button variant="outline-primary" onClick = {() => setModalShow6(true)}>Learn More</Button>
 					  </Card.Body>
+					  <Card.Footer>
+					  	<Button variant="outline-primary" onClick = {() => setModalShow6(true)}>Learn More</Button>
+					  </Card.Footer>
 					</Card>
 				</CardDeck>
 
@@ -201,7 +220,7 @@ export default function Projects() {
 								  	<ul>
 								  		<li> How to create a Chrome Extension</li>
 								  		<li> Basic JavaScript</li>
-								  		<li> Don't give up even if we had to switch ideas and start over halfway into the 24-hour hackathon :')</li>
+								  		<li> Don't give up even if you have to switch ideas halfway into the 24-hour hackathon :')</li>
 								  	</ul>
 								}
 					extrabutton = {
