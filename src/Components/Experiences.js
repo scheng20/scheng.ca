@@ -23,11 +23,11 @@ const Styles = styled.div`
 	}
 `;
 
-const VALUES = ['2016/01','2017/01','2018/01','2019/01', '2020/01'];
+const VALUES = ['2016/01/01','2017/01/01','2018/01/01','2019/01/01', '2020/01/01'];
 
 export default class Experiences extends React.Component {
 
-	state = { value: 4, previous: 0 };
+	state = { value: 4, previous: 3 };
 
 	render() {
 		return (
