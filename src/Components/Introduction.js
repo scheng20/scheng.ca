@@ -11,7 +11,6 @@ const Styles = styled.div`
 	h1 {
 		color: #e86100;
 		font-weight: bold;
-
 	}
 
 	p {
@@ -53,6 +52,10 @@ const Styles = styled.div`
     	margin-bottom: 2rem;
 	}
 
+	@media (max-width: 600px) {
+		.custom {
+			font-size: 2.2rem;
+		}
 	}
 `;
 
@@ -67,7 +70,7 @@ export default function Introduction() {
                     <Image src={pic} roundedCircle />
                   </Col>
                   <Col className="align-self-center">
-                    <h1> Nice to meet you! </h1>
+                    <h1 className = "custom"> Nice to meet you! </h1>
 					<p>
 					My name is Sheena and I’m a third year student studying <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank" rel="noopener noreferrer">business and computer science (BUCS)</a> at 
 					the University of British Columbia. I am passionate about both <a href="https://github.com/scheng20" target = "_blank" rel="noopener noreferrer"> software development </a> and <a href="https://www.linkedin.com/in/sheena-cheng/" target = "_blank" rel="noopener noreferrer"> entrepreneurship </a>. 
