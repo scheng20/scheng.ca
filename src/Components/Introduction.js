@@ -43,7 +43,9 @@ const Styles = styled.div`
 	img {
 		display:block;
     	margin:auto;
-    	width: 330px;
+    	width: 100%;
+  		max-width: 330px;
+ 		height: auto;
 	}
 
 	.col {
@@ -51,12 +53,6 @@ const Styles = styled.div`
     	margin-bottom: 2rem;
 	}
 
-	}
-
-	@media (min-width: 1200px) {
-		.custom {
-			margin-left : 2rem;
-		}
 	}
 `;
 
@@ -70,7 +66,7 @@ export default function Introduction() {
                   <Col xl = {4} className="align-self-center" > 
                     <Image src={pic} roundedCircle />
                   </Col>
-                  <Col className="align-self-center custom">
+                  <Col className="align-self-center">
                     <h1> Nice to meet you! </h1>
 					<p>
 					My name is Sheena and I’m a third year student studying <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank" rel="noopener noreferrer">business and computer science (BUCS)</a> at 

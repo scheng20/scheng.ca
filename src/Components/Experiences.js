@@ -181,12 +181,11 @@ export default class Experiences extends React.Component {
 				     		company = "UBC BizTech"
 				     		image = {BizTech}
 				     		url = 'https://www.ubcbiztech.com/'
-				     		desp = "As a previous First Year Representative, and now a Marketing Director at UBC 
-					     			Biztech, I am experienced with creating marketing strategies, launching online 
-					     			campaigns and promoting club events through social media. Some of the online tools 
-					     			and platforms that I am familiar with include Facebook, Instagram, and MailChimp. 
-		                    		In addition, I lead a team of 4 to organize, plan and run several BizTech events 
-		                    		throughout the year."
+				     		desp = "During my time as a team lead and marketing director for UBC BizTech, I boosted our event 
+				     				turnout rates by 10% through implementing a new marketing strategy. This strategy was 
+				     				created by analysing previous years’ event data and identifying the trends and opportunities. 
+				     				Additionally, I lead a team of 5 to plan, organize, and run several successful BizTech 
+				     				events throughout the year. "
 				     	/>
 				    </div>
 		        	</SwipeableViews>
