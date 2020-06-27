@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', 'Segoe UI', sans-serif;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
