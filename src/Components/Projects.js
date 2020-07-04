@@ -214,12 +214,13 @@ export default function Projects() {
 					image1 = {project2}
 					image2 = {afk2}
 					summary = 'Working in a team of 5, I was responsible for implementing the auto-scroll feature, which enabled a webpage to scroll down when the user reads the last words on screen out loud. 
-							   I implemented this feature using a text-scraping function written in JavaScript. Other commands of our extension include: "go down/up", "open/close tab", "go back/forward", 
-							   and "reload/refresh".'
+							   I implemented this feature using a text-scraping function written in JavaScript. Additionally, I also implemented a toggle button, allowing the user to turn voice recognition on/off inside the extension popup.  
+							   Other commands of our extension include: "go down/up", "open/close tab", "go back/forward", and "reload/refresh".'
 					learnings = { 
 								  	<ul>
 								  		<li> How to create a Chrome Extension</li>
 								  		<li> Basic JavaScript</li>
+								  		<li> Basic browser and web page actions</li>
 								  		<li> Don't give up even if you have to switch ideas halfway into the 24-hour hackathon :')</li>
 								  	</ul>
 								}
@@ -310,7 +311,7 @@ export default function Projects() {
 					image2 = {game2}
 					summary = "Over the summer of 2018, I built a small 2D puzzle platformer game using the Unity game engine. I coded and designed all aspects of the 
 							   game using C#, some basic pixel art, and lots of YouTube tutorials. It was definitely a great learning experience about the Unity engine 
-							   and the game development process in general. "
+							   and the game development process in general."
 					learnings = { 
 								  	<ul>
 								  		<li> How to create moveable characters in Unity</li>
