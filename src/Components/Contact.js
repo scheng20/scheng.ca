@@ -88,7 +88,7 @@ export default function Contact() {
 				<Container className="text-center">
 					<p> Want to get in touch? Reach out to me on any of these platforms: <Emoji symbol="📲"/></p>
 					<Row className="justify-content-center">
-						<Button className="btn-email" href="mailto:chengsheena25@gmail.com">
+						<Button className="btn-email" href="mailto:hello@scheng.ca">
 							<MdEmail size = {25}/>
 						</Button>
 
