@@ -174,7 +174,13 @@ export default class Experiences extends React.Component {
 					     	company = "SAP SE"
 					     	image = {SAP}
 					     	url = 'https://www.sap.com/'
-					     	desp = "Description Coming Soon"
+					     	desp = "As a technical project coordinator intern at SAP, I helped senior management 
+					     			make data driven decisions by creating data dashboards using SAP Analytics Cloud. 
+					     			In addition, I coordinated several projects such as the customer adoption program 
+					     			and the hiring & onboarding project, which required me to communicate with different 
+					     			stakeholders, prioritize multiple tasks and manage my time effectively. Lastly, I worked 
+					     			with other developers to create front-end React components and connected them to the backend 
+					     			MongoDB for a web app used to conduct internal training."
 					    />
 				    	<ExperiencesItem
 				     		heading = "Marketing Director & Team Lead"
