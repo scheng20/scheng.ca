@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.bcb13a1a.chunk.css",
-    "main.js": "/static/js/main.d7b0edbc.chunk.js",
-    "main.js.map": "/static/js/main.d7b0edbc.chunk.js.map",
+    "main.js": "/static/js/main.db5ffaca.chunk.js",
+    "main.js.map": "/static/js/main.db5ffaca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.90834230.js",
     "runtime-main.js.map": "/static/js/runtime-main.90834230.js.map",
     "static/js/2.e32ec0d4.chunk.js": "/static/js/2.e32ec0d4.chunk.js",
     "static/js/2.e32ec0d4.chunk.js.map": "/static/js/2.e32ec0d4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.45aea677bd360db42610841f07ad284f.js": "/precache-manifest.45aea677bd360db42610841f07ad284f.js",
+    "precache-manifest.de1e25ff1df3e6e84f61a7491a59d0d8.js": "/precache-manifest.de1e25ff1df3e6e84f61a7491a59d0d8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.bcb13a1a.chunk.css.map": "/static/css/main.bcb13a1a.chunk.css.map",
     "static/js/2.e32ec0d4.chunk.js.LICENSE.txt": "/static/js/2.e32ec0d4.chunk.js.LICENSE.txt",
-    "static/media/AFK2.png": "/static/media/AFK2.c792b0aa.png",
+    "static/media/AFK2.png": "/static/media/AFK2.799c8124.png",
     "static/media/Assigner1.png": "/static/media/Assigner1.2b34bd73.png",
     "static/media/Assigner2.png": "/static/media/Assigner2.2a92d787.png",
     "static/media/Game1.png": "/static/media/Game1.14c5ba5f.png",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.90834230.js",
     "static/js/2.e32ec0d4.chunk.js",
     "static/css/main.bcb13a1a.chunk.css",
-    "static/js/main.d7b0edbc.chunk.js"
+    "static/js/main.db5ffaca.chunk.js"
   ]
 }
