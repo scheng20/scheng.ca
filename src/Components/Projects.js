@@ -21,6 +21,7 @@ import assigner1 from "../Assets/Assigner1.png";
 import assigner2 from "../Assets/Assigner2.png";
 import it1 from "../Assets/IT1.png";
 import it2 from "../Assets/IT2.png";
+import afk1 from "../Assets/AFK1.png";
 import afk2 from "../Assets/AFK2.png";
 
 const Styles = styled.div`
@@ -211,7 +212,7 @@ export default function Projects() {
 	                				</div>
                 				}
 					link = 'https://github.com/scheng20/afk-chrome-extension'
-					image1 = {project2}
+					image1 = {afk1}
 					image2 = {afk2}
 					summary = 'Working in a team of 5, I was responsible for implementing the auto-scroll feature, which enabled a webpage to scroll down when the user reads the last words on screen out loud. 
 							   I implemented this feature using a text-scraping function written in JavaScript. Additionally, I also implemented a toggle button, allowing the user to turn voice recognition on/off inside the extension popup.  
