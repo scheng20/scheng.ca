@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import ProjectsItem from "./ProjectsItem.js";
 import project1 from "../Assets/project1.gif";
-import project2 from "../Assets/project2.png";
+import project2 from "../Assets/project2.gif";
 import project3 from "../Assets/project3.gif";
 import project4 from "../Assets/project4.gif";
 import project5 from "../Assets/project5.gif";
