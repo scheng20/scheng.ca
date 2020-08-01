@@ -101,7 +101,7 @@ export default class Experiences extends React.Component {
 				     		desp = "As a participant of the Technovation Challenge 2017, I worked with my team and industry mentors to 
 				     				develop an app (DecidED) and startup (THinc) that matches high school students to post-secondary 
 				     				institutions and scholarships based on their interests, academics, and other profile information. 
-				     				During this 12 week challenge, I worked on coding our mobile application using Thunckable and MIT 
+				     				During this 12 week challenge, I coded our mobile application using Thunckable and MIT 
 				     				App Inventor, conducted online market research, and wrote a full business plan for our venture."
 				     	/>
 				    </div>
