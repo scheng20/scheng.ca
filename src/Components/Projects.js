@@ -97,7 +97,7 @@ export default function Projects() {
 					    <Card.Title>AFK (Away From Keyboard)</Card.Title>
 					    <Card.Subtitle className="mb-2 text-muted">JavaScript, HTML, CSS</Card.Subtitle>
 					    <Card.Text>
-					    	AFK is a chrome extension that allows users to control their web page navigation by voice. This project was one of the top 35 submissions for nwHacks2020, winning our team the “Wolfram Award”.  
+					    	AFK is a chrome extension that allows users to navigate web pages through their voice. This project was in the top 35 out of 200+ project submissions for nwHacks2020, winning our team the “Wolfram Award”.
 					    </Card.Text>
 					  </Card.Body>
 					  <Card.Footer>
@@ -151,7 +151,7 @@ export default function Projects() {
 					    <Card.Title>Designed Websites</Card.Title>
 					    <Card.Subtitle className="mb-2 text-muted">WordPress, Elementor</Card.Subtitle>
 					    <Card.Text>
-					    	I used to run a small web-design business: ITReliable with my family. I worked as a web designer, creating websites for our clients using WordPress and managed them using cPanel and phpMyAdmin. 
+					    	From 2016-2018 I ran a small web-design business: ITReliable. Working as the web designer, I created websites for clients using WordPress and managed them using cPanel and phpMyAdmin.
 					    </Card.Text>
 					  </Card.Body>
 					  <Card.Footer>
@@ -179,13 +179,12 @@ export default function Projects() {
 					image2 = {sharing2}
 					summary = "While working as a marketing director for UBC BizTech, I noticed that the creation of our event sharing schedules is a very tedious and repetitive task. 
 							   As a result, I decided to build a Java program that generates these schedules automatically, directly coding our marketing strategy and scheduling 
-							   algorithm into the program. I single handily wrote this program using Java and used Eclipse Window Builder for the GUI."
+							   algorithm into the program. I single handily wrote this program using Java and used WindowBuilder for the GUI."
 					learnings = { 
 								  	<ul>
 								  		<li> How to code in Java </li>
-								  		<li> Basic data structures and how to use them </li>
-								  		<li> Eclipse Window Builder for creating the GUI </li>
-								  		<li> Basic algorithms </li>
+								  		<li> Basic data structures and algorithms </li>
+								  		<li> How to create a GUI using WindowBuilder </li>
 								  		<li> Project planning </li>
 								  	</ul>
 								}
@@ -221,7 +220,7 @@ export default function Projects() {
 								  	<ul>
 								  		<li> How to create a Chrome Extension</li>
 								  		<li> Basic JavaScript</li>
-								  		<li> Basic browser and web page actions</li>
+								  		<li> Using JavaScript to trigger browser and web page actions</li>
 								  		<li> Don't give up even if you have to switch ideas halfway into the 24-hour hackathon :')</li>
 								  	</ul>
 								}
@@ -247,13 +246,13 @@ export default function Projects() {
 					link = 'https://github.com/scheng20/management-platform'
 					image1 = {manage1}
 					image2 = {manage2}
-					summary = "In summer of 2019, I received the opportunity to collaborate on the creation of a management site for a Chinese stock analysis service. 
-							   I was responsible for writing the back-end code that connected front-end inputs to back-end data changes in our MySQL database. 
-							   I used PHP and SQL queries to implement the backend."
+					summary = "In summer of 2019, I received the opportunity to collaborate on the creation of a management web-app for a Chinese stock analysis service 
+							   with over 900 monthly users. I was responsible for writing 80% of all back-end code, where I used PHP and SQL queries to connect front-end 
+							   inputs to back-end data changes in our MySQL database."
 					learnings = { 
 								  	<ul>
-								  		<li> Basic PHP Syntax </li>
-								  		<li> How to write SQL Queries</li>
+								  		<li> How to write complex SQL queries</li>
+								  		<li> Basic PHP </li>
 								  		<li> Basic MySQL operations</li>
 								  	</ul>
 								}
@@ -318,8 +317,8 @@ export default function Projects() {
 								  		<li> How to create moveable characters in Unity</li>
 								  		<li> How to use a tiling system in Unity </li>
 								  		<li> How to use particle effects in Unity </li>
-								  		<li> Basic C# Syntax</li>
-								  		<li> Basic Level Design </li>
+								  		<li> Basic C# </li>
+								  		<li> Basic level design </li>
 								  	</ul>
 								}
 					extrabutton = {
@@ -349,10 +348,10 @@ export default function Projects() {
 							   WordPress to create websites and taught myself JavaScript, HTML, CSS and React to create more dynamic websites like this site!"
 					learnings = { 
 								  	<ul>
-								  		<li> Basic Web Design </li>
+								  		<li> Web design </li>
 								  		<li> Webpage management </li>
 								  		<li> Domain management </li>
-								  		<li> IT Troubleshooting </li>
+								  		<li> IT troubleshooting </li>
 								  	</ul>
 								}
 					customText = "View Websites"

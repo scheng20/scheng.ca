@@ -61,26 +61,24 @@ export default class Experiences extends React.Component {
 				     		company = "MathPickle"
 				     		url = 'https://mathpickle.com/'
 				     		image = {MathPickle}
-				     		desp = "During the summer of 2016, I was hired as a summer intern at MathPickle. During my 
-				     				internship, I renovated the MathPickle website and added several new features 
-				     				including a new landing page, mailing list integration (through MailChimp) and SEO 
-				     				management. Furthermore, I worked with other interns to create marketing videos, 
-				     				build a press kit, and manage social media accounts. MathPickle is a Calgary based 
-				     				startup that provides free online resources of original mathematical puzzles, games 
-				     				and unsolved problems for K-12 teachers. It is supported by the American Institute 
-				     				of Mathematics."
+				     		desp = "While working as a summer intern for MathPickle, I renovated the company website and added several 
+				     				new features including a new landing page, mailing list integration (through MailChimp) and SEO management. 
+				     				Furthermore, I worked with other interns to create marketing videos, build a press kit, and manage social 
+				     				media accounts. MathPickle is a Calgary based startup supported by the American Institute of Mathematics 
+				     				that provides free online resources of original mathematical puzzles, games and unsolved problems for 
+				     				K-12 teachers."
 				     	/>
 				     	<ExperiencesItem
 				     		heading = "SHAD Fellow"
 				     		company = "SHAD"
 				     		image = {SHAD}
 				     		url = 'https://www.shad.ca/'
-				     		desp = "In 2016, I attended the University of Western Ontario as a delegate for SHAD, one of
-				     				Canada’s most prestigious summer programs for high school students, with a focus on 
-				     				STEM (science, technology, engineering, mathematics) and entrepreneurship. The SHAD 
-				     				Alumni Network includes more than 15,500 of the best and brightest from all across 
-				     				Canada, including 30 Rhodes Scholars, 78 Loran Scholars, Top 40 under 40 & Top 20 
-				     				under 20 recipients, and more."
+				     		desp = "In 2016, I was accepted into SHAD, one of Canada’s most prestigious summer programs for high school students. 
+				     				During the program, I attended lectures focusing on STEM (science, technology, engineering, mathematics) 
+				     				and entrepreneurship topics at the University of Western Ontario. Additionally, I competed in the 2016 
+				     				SHAD-John Dobson Entrepreneurship Cup, where I worked as a marketing director for HexaGro, a venture that 
+				     				explored the potential of innovative greenhouse technologies for eradicating food insecurity. 
+				     				HexaGro ended up winning the “National Champion in Marketing” award at the Canada-wide competition. "
 				     	/>
 				    </div>
 				    <div>
@@ -89,48 +87,46 @@ export default class Experiences extends React.Component {
 				     		company = "Fuego, A Junior Achievement Company"
 				     		url = 'https://fuegojasa.wixsite.com/fuegomugs'
 				     		image = {Fuego}
-				     		desp = "As the president of Fuego, I oversaw all company sectors including: finance, 
-				     				marketing, HR. operations, and IT. Furthermore, I chaired meetings and helped 
-				     				direct overall company vision and strategy. Junior Achievement is an organization 
-				     				that helps high school students build their own businesses. Fuego (a Junior 
-				     				Achievement Company) sold color changing mugs, which were all hand painted by our 
-				     				company members."
+				     		desp = "As the president of Fuego – a Junior Achievement Company – I oversaw all company sectors including: 
+				     				finance, marketing, HR. operations, and IT. Furthermore, I chaired meetings and directed overall 
+				     				company vision and strategy. Our company specialized in designing, producing, and selling color-changing 
+				     				mugs. Junior Achievement is a global non-profit youth organization that helps high school students 
+				     				build their own businesses."
 				     	/>
 				     	<ExperiencesItem
 				     		heading = "Participant"
 				     		company = "Technovation Challenge"
 				     		url = 'https://technovationchallenge.org/'
 				     		image = {Technovation}
-				     		desp = "As a participant of the Technovation Challenge 2017, I worked with my team and 
-				     				industry mentors to develop an app (DecidED) and startup (THinc) that matches 
-				     				high school students to post-secondary institutions and scholarships based on their 
-				     				interests, academics, and other profile information. During this 12 week challenge, 
-				     				we coded our mobile application (using Thunckable and MIT App Inventor), conducted 
-				     				online market research, and wrote a full business plan for our venture. "
+				     		desp = "As a participant of the Technovation Challenge 2017, I worked with my team and industry mentors to 
+				     				develop an app (DecidED) and startup (THinc) that matches high school students to post-secondary 
+				     				institutions and scholarships based on their interests, academics, and other profile information. 
+				     				During this 12 week challenge, I worked on coding our mobile application using Thunckable and MIT 
+				     				App Inventor, conducting online market research, and writing a full business plan for our venture."
 				     	/>
 				    </div>
 				    <div>
 				    	<ExperiencesItem
-				     		heading = "Cofounder and Web Designer"
+				     		heading = "Co-founder and Web Designer"
 				     		company = "ITReliable.com"
 				     		image = {ITReliable}
 				     		url = 'https://www.itreliable.com/wp/'
-				     		desp = "Starting in 2016, I co-founded and became the main web designer of ITReliable.com, 
-				     				a Calgary based IT services business. I designed, built and managed websites using 
-				     				WordPress, phpMyAdmin, and cPanel. I have created websites for all kinds of clients 
-				     				including renovators, restaurants, and accountants. In addition, I provided 
-				     				technical support and customer service for our clients."
+				     		desp = "From 2016-2018, I ran a small Calgary-based IT services business: ITReliable. 
+				     				As the web designer, I designed, built and managed websites using WordPress, 
+				     				phpMyAdmin, and cPanel. I have created websites for all kinds of clients including 
+				     				renovators, restaurant owners, and accountants. In addition, I provided technical 
+				     				support and customer service for our clients. "
 				     	/>
 				     	<ExperiencesItem
-				     		heading = "Cofounder and President "
+				     		heading = "Co-founder and President "
 				     		company = "Sir Winston Churchill LaunchX Club"
 				     		image = {SWCLaunchX}
 				     		url = 'https://launchx.com/'
-				     		desp = "I worked with a team to bring the LaunchX program to my high school (Sir Winston 
-				     		Churchill Highschool). As the president of the club, I organized club meetings, taught 
-				     		LaunchX lessons to members, and provided guidance for student companies in their startup 
-				     		journey. The LaunchX program aims to empower high school students to build a viable startup 
-				     		by offering lessons, materials and guidance for student companies. "
+				     		desp = "Working with a friend and fellow student, we brought the international LaunchX program to my high school 
+				     				(Sir Winston Churchill Highschool). As the president of the club, I organized club meetings, taught 
+				     				entrepreneurship lessons provided by LaunchX, and guided our club members throughout their startup journey. 
+				     				Originally founded at MIT, the LaunchX program aims to empower high school students to build a viable 
+				     				startup by offering lessons, materials, and guidance for student companies."
 				     	/>
 				     	{/*
 				     	<ExperiencesItem
@@ -145,27 +141,24 @@ export default class Experiences extends React.Component {
 				     	/>*/}
 				    </div>
 				    <div>
-					    <ExperiencesItem
-				     		heading = "Web Developer"
-				     		company = "UBC Table Tennis Club"
-				     		image = {UBCTTC}
-				     		url = 'http://www.ubctabletennisclub.org/'
-				     		desp = "Working with a team of web developers, we are building the UBC Table Tennis Club 
-				     				website using Ruby on Rails, HTML, CSS, JavaScript, Heroku and PostgreSQL. 
-				     				I am responsible for building the front-end using HTML, CSS and Javascript. 
-				     				In addition, I occasionally assist with the back-end configuration of our 
-				     				Heroku database."
-					     />
+				    	<ExperiencesItem
+				     		heading = "Marketing Director & Team Lead"
+				     		company = "UBC BizTech"
+				     		image = {BizTech}
+				     		url = 'https://www.ubcbiztech.com/'
+				     		desp = "During my time as a team lead and marketing director for UBC BizTech, I boosted our event turnout rates 
+				     				by 10% through implementing a new marketing strategy. This strategy was created by analyzing previous 
+				     				years’ event marketing data and identifying the trends and opportunities. Additionally, I lead a 
+				     				team of 5 to plan, organize, and run 14 successful events for 281 club members throughout the school year. "
+				     	/>
 					    <ExperiencesItem
 					     	heading = "Developer"
 					     	company = "ProToGo Technologies Inc."
 					     	image = {ProToGo}
 					     	url = 'https://www.protogo.co/'
-					     	desp = "I worked on building the first version of ProToGo’s web application. 
-					     			Collaborating with other dev team members, we implemented this application 
-					     			using HTML, CSS, Vue.js and Firebase. My role is using Vue.js to route the 
-					     			web app and connect the front-end to reflect and store changes into our 
-					     			back-end Firebase."
+					     	desp = "As one of the developers for ProToGo, a student-lead start up aimed at transforming the construction industry, 
+					     			I worked on building the first version of ProToGo’s web application. I focused on building front-end pages 
+					     			using Vue.js and connecting the Vue components to our back-end Firebase to store and reflect data. "
 					    />
 				    </div>
 				    <div>
@@ -174,24 +167,24 @@ export default class Experiences extends React.Component {
 					     	company = "SAP SE"
 					     	image = {SAP}
 					     	url = 'https://www.sap.com/'
-					     	desp = "As a technical project coordinator intern at SAP, I helped senior management make data driven 
-					     			decisions by creating BI dashboards using SAP Analytics Cloud. Additionally, I ensured the 
-					     			success of multiple projects such as the customer adoption program and hiring & onboarding 
-					     			project by handling tight deadlines, communicating with multiple stakeholders, and organizing 
-					     			events. Lastly, I assisted the launch of an internal training web-app by joining the development 
-					     			team and used JavaScript to build front-end React components and implement back-end MongoDB endpoints."
+					     	desp = "As a technical project coordinator intern at SAP, I launched an internal training web-app used across SAP Canada 
+					     			by joining a development team to build front-end React components and implement back-end MongoDB endpoints. 
+					     			Additionally, I helped senior management make data driven decisions by creating multiple BI dashboards using 
+					     			SAP Analytics Cloud and SAP Predictive Analytics. Furthermore, I ensured the success of our customer adoption 
+					     			program by creating adoption benchmarks and a customer adoption maturity model validated by stakeholders. 
+					     			Lastly, I	Improved the onboarding experience satisfaction for 52 new hires by 17% through tackling COVID-19 
+					     			challenges and re-organizing the onboarding event with a new virtual friendly event schedule. "
 					    />
-				    	<ExperiencesItem
-				     		heading = "Marketing Director & Team Lead"
-				     		company = "UBC BizTech"
-				     		image = {BizTech}
-				     		url = 'https://www.ubcbiztech.com/'
-				     		desp = "During my time as a team lead and marketing director for UBC BizTech, I boosted our event 
-				     				turnout rates by 10% through implementing a new marketing strategy. This strategy was 
-				     				created by analysing previous years’ event data and identifying the trends and opportunities. 
-				     				Additionally, I lead a team of 5 to plan, organize, and run several successful BizTech 
-				     				events throughout the year. "
-				     	/>
+					    <ExperiencesItem
+				     		heading = "Web Developer"
+				     		company = "UBC Table Tennis Club"
+				     		image = {UBCTTC}
+				     		url = 'http://www.ubctabletennisclub.org/'
+				     		desp = "Working within a team of developers, I am responsible for leading front-end development and creating several web pages 
+				     				using Ruby on Rails, JavaScript, HTML, CSS and Bootstrap. In addition, I help other developers by assisting 
+				     				the back-end configuration of Heroku and PostgreSQL database, and troubleshooting any environment setup and 
+				     				front-end development questions.  "
+					     />
 				    </div>
 		        	</SwipeableViews>
 			    </div>

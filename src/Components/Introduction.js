@@ -76,7 +76,7 @@ export default function Introduction() {
 					the University of British Columbia. I am passionate about both <a href="https://github.com/scheng20" target = "_blank" rel="noopener noreferrer"> software development </a> and <a href="https://www.linkedin.com/in/sheena-cheng/" target = "_blank" rel="noopener noreferrer"> entrepreneurship </a>. 
 					I enjoy building things that will make people’s lives easier, and enlarging that impact through the power of business. </p>
 
-					<p> In my spare time, I like to play video games <Emoji symbol="🎮"/>, hike in nature <Emoji symbol="🌲"/>, workout <Emoji symbol="🏋"/>, play table tennis <Emoji symbol="🏓"/>, or jam on the guitar <Emoji symbol="🎸"/>. 
+					<p> In my spare time, I like to play video games <Emoji symbol="🎮"/>, hike in nature <Emoji symbol="🌲"/>, workout <Emoji symbol="🏋"/>, play table tennis <Emoji symbol="🏓"/>, and jam on the guitar <Emoji symbol="🎸"/>. 
 					I'm also a huge foodie, so I love exploring new cusines and tasting all sorts of exotic foods <Emoji symbol="😋"/>. </p>
 
 					<p> On this site you can find some of my past <a href="#experience">experiences</a>, <a href="#projects">projects</a>, and <a href="#skills">skills</a>. </p>

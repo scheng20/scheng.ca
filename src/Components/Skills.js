@@ -35,7 +35,7 @@ export default function Skills() {
 						<ul>
 							<li>Git</li>
 						  	<li>WordPress</li>
-						  	<li>Microsoft Office</li>
+						  	<li>Figma</li>
 						</ul>
 				  </Card.Body>
 				</Card>
@@ -44,21 +44,18 @@ export default function Skills() {
 				  <Card.Body>
 			      	<b>Languages:</b>
 			      		<ul>
-			      			<li>Javascript</li>
+			      			<li>C++</li>
+			      			<li>JavaScript</li>
 					  		<li>HTML</li>
 					  		<li>CSS</li>
-					  		<li>Python</li>
-					  		<li>C#</li>
-					  		<li>C++</li>
-					  		<li>PHP</li>
 						</ul>
 					<b>Tools & Frameworks:</b>
 						<ul>
 					  		<li>React</li>
 					  		<li>Bootstrap</li>
-					  		<li>Unity</li>
 					  		<li>MySQL</li>
-					  		<li>Figma</li>
+					  		<li>MongoDB</li>
+					  		<li>Unity</li>
 						</ul>
 				  </Card.Body>
 				</Card>
@@ -67,13 +64,17 @@ export default function Skills() {
 				  <Card.Body>
 			      	<b>Languages:</b>
 			      		<ul>
+			      			<li>C</li>
+					  		<li>C#</li>
+			      			<li>PHP</li>
+			      			<li>Python</li>
 					  		<li>Ruby</li>
-					  		<li>C</li>
 						</ul>
 					<b>Tools & Frameworks:</b>
 						<ul>
 					  		<li>Ruby on Rails</li>
 					  		<li>Vue.js</li>
+					  		<li>Firebase</li>
 						</ul>
 				  </Card.Body>
 				</Card>
