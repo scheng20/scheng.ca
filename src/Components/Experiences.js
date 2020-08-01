@@ -102,7 +102,7 @@ export default class Experiences extends React.Component {
 				     				develop an app (DecidED) and startup (THinc) that matches high school students to post-secondary 
 				     				institutions and scholarships based on their interests, academics, and other profile information. 
 				     				During this 12 week challenge, I worked on coding our mobile application using Thunckable and MIT 
-				     				App Inventor, conducting online market research, and writing a full business plan for our venture."
+				     				App Inventor, conducted online market research, and wrote a full business plan for our venture."
 				     	/>
 				    </div>
 				    <div>
