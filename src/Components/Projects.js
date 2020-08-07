@@ -256,6 +256,9 @@ export default function Projects() {
 								  		<li> Basic MySQL operations</li>
 								  	</ul>
 								}
+					extrabutton = {
+									<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://www.youtube.com/watch?v=mSV1RIWVRtQ' target="_blank" rel="noopener noreferrer">Demo Video</Button>
+								}
 				/>
 
 				<ProjectsItem
