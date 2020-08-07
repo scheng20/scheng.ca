@@ -257,7 +257,7 @@ export default function Projects() {
 								  	</ul>
 								}
 					extrabutton = {
-									<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://www.youtube.com/watch?v=mSV1RIWVRtQ' target="_blank" rel="noopener noreferrer">Demo Video</Button>
+									<Button style = {{'backgroundColor': '#e86100', 'borderColor': '#e86100'}} href='https://www.youtube.com/watch?v=mSV1RIWVRtQ' target="_blank" rel="noopener noreferrer">View Demo Video</Button>
 								}
 				/>
 
