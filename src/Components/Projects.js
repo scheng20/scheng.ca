@@ -97,7 +97,7 @@ export default function Projects() {
 					    <Card.Title>AFK (Away From Keyboard)</Card.Title>
 					    <Card.Subtitle className="mb-2 text-muted">JavaScript, HTML, CSS</Card.Subtitle>
 					    <Card.Text>
-					    	AFK is a chrome extension that allows users to navigate web pages through their voice. This project was in the top 35 out of 200+ project submissions for nwHacks2020, winning our team the “Wolfram Award”.
+					    	AFK is a chrome extension that allows users to navigate web pages through their voice. This project was in the top 35 out of 500+ project submissions for nwHacks2020, winning our team the “Wolfram Award”.
 					    </Card.Text>
 					  </Card.Body>
 					  <Card.Footer>
@@ -179,7 +179,7 @@ export default function Projects() {
 					image2 = {sharing2}
 					summary = "While working as a marketing director for UBC BizTech, I noticed that the creation of our event sharing schedules is a very tedious and repetitive task. 
 							   As a result, I decided to build a Java program that generates these schedules automatically, directly coding our marketing strategy and scheduling 
-							   algorithm into the program. I single handily wrote this program using Java and used WindowBuilder for the GUI."
+							   algorithm into the program. I single handily wrote this 1500+ line program using Java for the algorithms and WindowBuilder for the GUI."
 					learnings = { 
 								  	<ul>
 								  		<li> How to code in Java </li>
