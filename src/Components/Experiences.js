@@ -163,17 +163,19 @@ export default class Experiences extends React.Component {
 				    </div>
 				    <div>
 					    <ExperiencesItem
-					     	heading = "Technical Project Coordinator"
+					     	heading = "Technical Project Coordinator / Developer Intern"
 					     	company = "SAP SE"
 					     	image = {SAP}
 					     	url = 'https://www.sap.com/'
-					     	desp = "As a technical project coordinator intern at SAP, I launched an internal training web-app used across SAP Canada 
-					     			by joining a development team to build front-end React components and implement back-end MongoDB endpoints. 
-					     			Additionally, I helped senior management make data driven decisions by creating multiple BI dashboards using 
-					     			SAP Analytics Cloud and SAP Predictive Analytics. Furthermore, I ensured the success of our customer adoption 
-					     			program by creating adoption benchmarks and a customer adoption maturity model validated by stakeholders. 
-					     			Lastly, I	Improved the onboarding experience satisfaction for 52 new hires by 17% through tackling COVID-19 
-					     			challenges and re-organizing the onboarding event with a new virtual friendly event schedule. "
+					     	desp = "As a technical project coordinator / developer intern at SAP, I worked with a development team to build an 
+					     			internal training web-app used across SAP Canada with the MERN (MongoDB, Express, React, Node.js) stack. 
+					     			I focused on coding React components such as a data consent modal and implementing MongoDB endpoints such 
+					     			as storing a user’s training data. On the project-coordination side, I helped senior management make data 
+					     			driven decisions by creating multiple BI dashboards using SAP Analytics Cloud and SAP Predictive Analytics. 
+					     			Furthermore, I ensured the success of our customer adoption program by creating adoption benchmarks and a 
+					     			customer adoption maturity model validated by stakeholders. Lastly, I improved the onboarding experience 
+					     			satisfaction for 52 new hires by 17% through tackling COVID-19 challenges and re-organizing the onboarding 
+					     			event with a new virtual friendly event schedule."
 					    />
 					    <ExperiencesItem
 				     		heading = "Web Developer"
