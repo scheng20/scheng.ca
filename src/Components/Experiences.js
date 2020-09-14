@@ -181,7 +181,7 @@ export default class Experiences extends React.Component {
 				     		heading = "Web Developer"
 				     		company = "UBC Table Tennis Club"
 				     		image = {UBCTTC}
-				     		url = 'http://www.ubctabletennisclub.org/'
+				     		url = 'http://www.ubctabletennis.org/'
 				     		desp = "Working within a team of developers, I am responsible for leading front-end development and creating several web pages 
 				     				using Ruby on Rails, JavaScript, HTML, CSS and Bootstrap. In addition, I help other developers by assisting 
 				     				the back-end configuration of Heroku and PostgreSQL database, and troubleshooting any environment setup and 
