@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styled from 'styled-components';
 
 const Styles = styled.div`
@@ -13,10 +13,15 @@ const Styles = styled.div`
 	} 
 `;
 
-export const NotFound = () => (
-	<Styles>
-		<div>
-			<h1> Page Not Found </h1>
-		</div>
-	</Styles>
-)
+export default function AllProjects() {
+
+	return (
+		<Styles>
+			<div>
+				<h1>
+					Page Under Construction
+				</h1>
+			</div>
+		</Styles>
+	);
+}

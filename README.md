@@ -1,5 +1,5 @@
 # [Scheng.ca](https://scheng.ca/)
-My personal portfolio website displaying my career experiences, projects, and skills. Coded using Javascript, HTML, CSS, React and Bootstrap. 
+My personal portfolio website displaying my career experiences, projects, and skills. Coded using Javascript, HTML, CSS, React, Bootstrap and Styled Components. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

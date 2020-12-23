@@ -4,6 +4,7 @@ import {NotFound} from './Components/NotFound';
 import Home from './Components/Home';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import AllProjects from './Components/AllProjects'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/home" component = {Home} />
             <Route exact path="/scheng.ca" component = {Home} />
             <Route path="/scheng.ca/home" component = {Home} />
+            <Route path="/allprojects" component = {AllProjects} />
             <Route component = {NotFound} />
           </Switch>
         </Router>
