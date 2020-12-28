@@ -26,7 +26,7 @@ export default function Home() {
 			<Container fluid style = {{"backgroundColor" : "#fafafa", "paddingTop" : "7.5rem"}}>
 			
 					<Introduction/>
-					<a href="#experience" name="experience"></a>
+					<a name="experience"></a>
 
 			</Container>
 
