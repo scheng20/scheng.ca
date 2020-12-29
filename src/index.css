@@ -14,29 +14,28 @@ code {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto'), url(./Fonts/Roboto-Regular.ttf) format('truetype');
+  src: local('Roboto'), url(./Assets/Fonts/Roboto-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 400;  
-  src: local('Roboto'), url(./Fonts/Roboto-Italic.ttf) format('truetype');
+  src: local('Roboto'), url(./Assets/Fonts/Roboto-Italic.ttf) format('truetype');
 }
-
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: local('Roboto'), url(./Fonts/Roboto-Medium.ttf) format('truetype');
+  src: local('Roboto'), url(./Assets/Fonts/Roboto-Medium.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 500;
-  src: local('Roboto'), url(./Fonts/Roboto-MediumItalic.ttf) format('truetype');
+  src: local('Roboto'), url(./Assets/Fonts/Roboto-MediumItalic.ttf) format('truetype');
   
 }
 
@@ -44,12 +43,12 @@ code {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local('Roboto'), url(./Fonts/Roboto-Bold.ttf) format('truetype');
+  src: local('Roboto'), url(./Assets/Fonts/Roboto-Bold.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 700;
-  src: local('Roboto'), url(./Fonts/Roboto-BoldItalic.ttf) format('truetype');
+  src: local('Roboto'), url(./Assets/Fonts/Roboto-BoldItalic.ttf) format('truetype');
 }

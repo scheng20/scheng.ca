@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProjectCard from "./ProjectCard.js";
-import ProjectContents from '../Content/Projects.json'
+import ProjectContents from '../Assets/Content/Projects.json'
 
 const Styles = styled.div`
 

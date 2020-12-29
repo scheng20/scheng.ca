@@ -47,7 +47,7 @@ export default function ProjectModal(props) {
               <Styles>
                 <Container>
                   <Row>
-                    <Col lg = "auto" style = {{'padding-right' : '0px'}}>
+                    <Col lg = "auto" style = {{'paddingRight' : '0px'}}>
                       {props.title}
                     </Col>
                     <Col>
