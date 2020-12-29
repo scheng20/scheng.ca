@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "title": "Sharing Schedule Generator",
+        "tech": [" Java", " WindowBuilder"],
+        "card_summary": "A program that automatically generates sharing schedules which are used to share club events to different Facebook groups. It is currently being used as a marketing tool for UBC BizTech, UBC's largest tech club.",
+        "modal_summary": "While working as a marketing director for UBC BizTech, I noticed that the creation of our event sharing schedules is a very tedious and repetitive task. As a result, I decided to build a Java program that generates these schedules automatically, directly coding our marketing strategy and scheduling algorithm into the program. I single handily wrote this 1500+ line program using Java for the algorithms and WindowBuilder for the GUI.",
+        "github_link": "https://github.com/scheng20/sharing-schedule-generator",
+        "demo_gif": "project1.gif"
+    },
+
+    {   
+        "id": 2,
+        "title": "AFK (Away From Keyboard)",
+        "tech": [" JavaScript", " HTML", " CSS"],
+        "card_summary": "AFK is a chrome extension that allows users to navigate web pages through their voice. This project was in the top 35 out of 500+ project submissions for nwHacks2020, winning our team the “Wolfram Award”.",
+        "modal_summary": "Working in a team of 5, I was responsible for implementing the auto-scroll feature, which enabled a webpage to scroll down when the user reads the last words on screen out loud. I implemented this feature using a text-scraping function written in JavaScript. Additionally, I also implemented a toggle button, allowing the user to turn voice recognition on/off inside the extension popup. Other commands of our extension include: \"go down/up\", \"open/close tab\", \"go back/forward\", and \"reload/refresh\".",
+        "github_link": "https://github.com/scheng20/afk-chrome-extension",
+        "demo_gif": "project2.gif"
+    }
+]
