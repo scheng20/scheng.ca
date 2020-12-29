@@ -9,6 +9,8 @@ import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+import ProjectCard from "./ProjectCard.js";
+
 const Styles = styled.div`
 
 	.btn-outline-primary {
@@ -39,11 +41,11 @@ const Styles = styled.div`
 	}
 
 	.col-lg-4 {
-		display: flex;
+		display: flex !important;
 	}
 
 	.col-md-6 {
-		display: flex;
+		display: flex !important;
 	}
 
 	.container {
@@ -53,25 +55,26 @@ const Styles = styled.div`
 
 export default function AllProjects() {
 
-	const [modalShow, setModalShow] = React.useState(false);
-
 	return (
 		<Styles>
 		<Container>
         	<Row>
                 {ProjectContents.map(project => 
                     <Col lg = {4} md = {6} xs = {12}>
-                        <Card>
-                        	<Card.Img variant="top" src={require('../Assets/'+ project.demo_gif)} />
-							<Card.Body>
-								<Card.Title>{project.title}</Card.Title>
-								<Card.Subtitle className="mb-2 text-muted">{project.tech + " "}</Card.Subtitle>
-								<Card.Text>{project.card_summary}</Card.Text>
-							</Card.Body>
-							<Card.Footer>
-						  		<Button variant="outline-primary" onClick = {() => setModalShow(true)}>Learn More</Button>
-							</Card.Footer>
-						</Card>
+                        <ProjectCard
+                        	title = {project.title}
+                        	tech = {project.tech}
+                        	card_summary = {project.card_summary}
+                        	modal_summary = {project.modal_summary}
+                        	learnings = {project.learnings}
+                        	demo_gif = {project.demo_gif}
+                        	img1 = {project.img1}
+                        	img2 = {project.img2}
+                        	github_link = {project.github_link}
+                        	extra_link = {project.extra_link}
+                        	extra_link_text = {project.extra_link_text}
+                        	custom_text = {project.custom_text}
+                        />
                     </Col>
                 )}
             </Row>

@@ -2,20 +2,156 @@
     {
         "id": 1,
         "title": "Sharing Schedule Generator",
-        "tech": [" Java", " WindowBuilder"],
+        "tech": ["Java", "WindowBuilder"],
         "card_summary": "A program that automatically generates sharing schedules which are used to share club events to different Facebook groups. It is currently being used as a marketing tool for UBC BizTech, UBC's largest tech club.",
         "modal_summary": "While working as a marketing director for UBC BizTech, I noticed that the creation of our event sharing schedules is a very tedious and repetitive task. As a result, I decided to build a Java program that generates these schedules automatically, directly coding our marketing strategy and scheduling algorithm into the program. I single handily wrote this 1500+ line program using Java for the algorithms and WindowBuilder for the GUI.",
+        "learnings": [
+            "How to code in Java",
+            "Basic data structures and algorithms",
+            "How to create a GUI using WindowBuilder",
+            "Project planning"
+        ],
+        "demo_gif": "project1.gif",
+        "img1": "Sharing1.png",
+        "img2": "Sharing2.png",
         "github_link": "https://github.com/scheng20/sharing-schedule-generator",
-        "demo_gif": "project1.gif"
+        "extra_link": "https://www.dropbox.com/s/uq6aao92wstuu13/SharingScheduleGenerator.exe?dl=0",
+        "extra_link_text": "Try the Program"
     },
 
     {   
         "id": 2,
         "title": "AFK (Away From Keyboard)",
-        "tech": [" JavaScript", " HTML", " CSS"],
+        "tech": ["JavaScript", "HTML", "CSS"],
         "card_summary": "AFK is a chrome extension that allows users to navigate web pages through their voice. This project was in the top 35 out of 500+ project submissions for nwHacks2020, winning our team the “Wolfram Award”.",
         "modal_summary": "Working in a team of 5, I was responsible for implementing the auto-scroll feature, which enabled a webpage to scroll down when the user reads the last words on screen out loud. I implemented this feature using a text-scraping function written in JavaScript. Additionally, I also implemented a toggle button, allowing the user to turn voice recognition on/off inside the extension popup. Other commands of our extension include: \"go down/up\", \"open/close tab\", \"go back/forward\", and \"reload/refresh\".",
+        "learnings": [
+            "How to create a Chrome Extension",
+            "Basic JavaScript",
+            "Using JavaScript to trigger browser and web page actions",
+            "Don't give up even if you have to switch ideas halfway into the 24-hour hackathon :')"
+        ],
+        "demo_gif": "project2.gif",
+        "img1": "AFK1.png",
+        "img2": "AFK2.png",
         "github_link": "https://github.com/scheng20/afk-chrome-extension",
-        "demo_gif": "project2.gif"
+        "extra_link": "https://devpost.com/software/afk-bec9g1",
+        "extra_link_text": "View on DevPost"
+    },
+
+    {   
+        "id": 3,
+        "title": "Online Management Platform",
+        "tech": ["PHP", "SQL"],
+        "card_summary": "A management web-app for a stock analysis service. Features include: adding and removing stock insights, publishing articles, managing user comments, and viewing user statistics.",
+        "modal_summary": "In summer of 2019, I received the opportunity to collaborate on the creation of a management web-app for a Chinese stock analysis service with over 900 monthly users. I was responsible for writing 80% of all back-end code, where I used PHP and SQL queries to connect front-end inputs to back-end data changes in our MySQL database.",
+        "learnings": [
+            "How to write complex SQL queries",
+            "Basic PHP",
+            "Basic MySQL operations"
+        ],
+        "demo_gif": "project3.gif",
+        "img1": "Management1.png",
+        "img2": "Management2.png",
+        "github_link": "https://github.com/scheng20/management-platform",
+        "extra_link": "https://www.youtube.com/watch?v=mSV1RIWVRtQ",
+        "extra_link_text": "View Demo Video"
+    },
+
+    {   
+        "id": 4,
+        "title": "Schedule Assigner",
+        "tech": ["Java", "JavaFX", "JUnit"],
+        "card_summary": "Works as an add-on to my “Sharing Schedule Generator” project. Takes a list of names and a sharing schedule in the form of .txt files, then outputs an assigned schedule showing who should share in what group and when.",
+        "modal_summary": "This was my final project for the CPSC 210: Software Construction Course I took at UBC. Although I have built software prior to the course, I learned how to truly design programs instead of just piecing code together after CPSC 210. This project was a learning experience on how to design, test, and write cohesive code to create truly robust programs. I used Java to write the algorithms, JavaFX to build the GUI, and tested my code using JUnit.",
+        "learnings": [
+            "Object-oriented design principles (Single Responsibility Principle, Liskov Substitution Principle)",
+            "Writing robust programs and throwing exceptions",
+            "Testing my code using JUnit",
+            "How to build a GUI using JavaFX"
+        ],
+        "demo_gif": "project4.gif",
+        "img1": "Assigner1.png",
+        "img2": "Assigner2.png",
+        "github_link": "https://github.com/scheng20/schedule-assigner"
+    },
+
+    {   
+        "id": 5,
+        "title": "Just a 2D Game",
+        "tech": ["Unity", "C#"],
+        "card_summary": "This game may seem like a simple platformer on first sight, but it has several hidden tricks and puzzles built in for the player to explore. It’s the first Unity game I’ve created and it’s currently published on Itch.io.",
+        "modal_summary": "Over the summer of 2018, I built a small 2D puzzle platformer game using the Unity game engine. I coded and designed all aspects of the game using C#, some basic pixel art, and lots of YouTube tutorials. It was definitely a great learning experience about the Unity engine and the game development process in general.",
+        "learnings": [
+            "How to create moveable characters in Unity",
+            "How to use a tiling system in Unity",
+            "How to use particle effects in Unity",
+            "Basic C#",
+            "Basic level design"
+        ],
+        "demo_gif": "project5.gif",
+        "img1": "Game1.png",
+        "img2": "Game2.png",
+        "github_link": "https://github.com/scheng20/just-a-2d-game",
+        "extra_link": "https://yobolo.itch.io/just-a-2d-game",
+        "extra_link_text": "Play The Game"
+    },
+
+    {   
+        "id": 7,
+        "title": "GitHub Issues Viewer",
+        "tech": ["React", "Bootstrap"],
+        "card_summary": "A simple web app that utilizes the GitHub API to fetch and display a list of issues from any GitHub repository. Users can further filter the fetched issues by their status: “open”, “closed”, or “pull-request”.",
+        "modal_summary": "Originally the creation of this web-app was tasked to me as an interview assignment for a company I applied to. After completing the initial requirements, I decided to take this project further and put my own spin on things and add some additional design / features that were not required in the original outline. With permission from the company, I’m able to showcase this new re-vamped version of the web-app.",
+        "learnings": [
+            "How to create a dynamic web-app using React and Bootstrap",
+            "How to utilize GitHub API in an application",
+            "Using CSS to build a responsive design",
+            "Better organization of CSS stylesheets"
+        ],
+        "demo_gif": "project7.gif",
+        "img1": "IssueViewer1.png",
+        "img2": "IssueViewer2.png",
+        "github_link": "https://github.com/scheng20/github-issues-viewer",
+        "extra_link": "https://scheng20.github.io/github-issues-viewer/",
+        "extra_link_text": "Try It Out"
+    },
+
+    {   
+        "id": 8,
+        "title": "Mental Health Webapp",
+        "tech": ["PHP", "SQL", "CSS", "HTML"],
+        "card_summary": "Designed for mental health help seekers and counsellors, our app acts as a one-stop-shop for one’s mental health resources, whether that be hotlines, resource centres, or even to search and book appointments.",
+        "modal_summary": "Working in a team of 3, we built a mental health networking and help web-app dedicated to those seeking and offering help. Within the project, I built 11 out of our total 17 webpages, each page is a PHP file that acts as both the front-end and sends SQL queries to the backend. I also worked with my teammates to design the database by creating an ER diagram, project schemas and listing any functional dependencies. ",
+        "learnings": [
+            "Full-stack web development with PHP, HTML, CSS and MySQL",
+            "Database design",
+            "Creating ER diagrams",
+            "Writing database schemas and functional dependencies"
+        ],
+        "demo_gif": "project8.gif",
+        "img1": "MentalHealth1.png",
+        "img2": "MentalHealth2.png",
+        "github_link": "https://github.com/scheng20/mental-health-app"
+    },
+
+    {   
+        "id": 6,
+        "title": "Designed Websites",
+        "tech": ["WordPress", "Elementor"],
+        "card_summary": "From 2016-2018 I ran a small web-design business: ITReliable. Working as the web designer, I created websites for clients using WordPress and managed them using cPanel and phpMyAdmin.",
+        "modal_summary": "While working as a web designer for ITReliable, I was able to create websites for all kinds of clients including renovators, restaurants, and accountants. I also provided technical support and customer service for our clients, ensuring that they are satisfied with their website. Eventually I stopped using WordPress to create websites and taught myself JavaScript, HTML, CSS and React to create more dynamic websites like this site!",
+        "learnings": [
+            "Web design",
+            "Webpage management",
+            "Domain management",
+            "IT troubleshooting"
+        ],
+        "demo_gif": "project6.gif",
+        "img1": "IT1.png",
+        "img2": "IT2.png",
+        "github_link": "https://www.itreliable.com/wp/",
+        "custom_text": "View Websites"
     }
+
 ]
