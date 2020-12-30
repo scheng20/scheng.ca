@@ -32,47 +32,47 @@ export default class Experiences extends React.Component {
 	render() {
 		return (
 			<div>
-			<Styles>
-				<h1> Experiences </h1>
-				<div style={{ width: '100%', height: '5rem', margin: '20 auto' }}>
-		          	<HorizontalTimeline
-			            index={this.state.value}
-			            indexClick={(index) => {
-			              this.setState({ value: index, previous: this.state.value });
-			            }}
-			            values={ VALUES } 
-			            styles = {{ background: '#f8f8f8', foreground: '#e86100', outline: '#dfdfdf' }}
-			            maxEventPadding = {100}
-			            minEventPadding = {100}
-			            labelWidth = {100}
-		            />
-	        	</div>
-	        	<div>
-		        	<SwipeableViews
-			            index={this.state.value}
-			            onChangeIndex={(value, previous) => {
-			              this.setState({ value: value, previous: previous });
-			            }}
-			            resistance
-			            enableMouseEvents>
+				<Styles>
+					<h1> Experiences </h1>
+					<div style={{ width: '100%', height: '5rem', margin: '20 auto' }}>
+			          	<HorizontalTimeline
+				            index={this.state.value}
+				            indexClick={(index) => {
+				              this.setState({ value: index, previous: this.state.value });
+				            }}
+				            values={ VALUES } 
+				            styles = {{ background: '#f8f8f8', foreground: '#e86100', outline: '#dfdfdf' }}
+				            maxEventPadding = {100}
+				            minEventPadding = {100}
+				            labelWidth = {100}
+			            />
+		        	</div>
+		        	<div>
+			        	<SwipeableViews
+				            index={this.state.value}
+				            onChangeIndex={(value, previous) => {
+				              this.setState({ value: value, previous: previous });
+				            }}
+				            resistance
+				            enableMouseEvents>
 
-			           	{chunkedArray.map(group => ( 
-							<div >
-								{group.map(experience => (
-									<ExperiencesItem
-										heading = {experience.heading}
-										company = {experience.company}
-										desp = {experience.description}
-										image = {experience.image}
-										url = {experience.url}
-									/>
-								))}
-							</div>
-						))}
-						
-		        	</SwipeableViews>
-			    </div>
-			</Styles>
+				           	{chunkedArray.map(group => ( 
+								<div >
+									{group.map(experience => (
+										<ExperiencesItem
+											heading = {experience.heading}
+											company = {experience.company}
+											desp = {experience.description}
+											image = {experience.image}
+											url = {experience.url}
+										/>
+									))}
+								</div>
+							))}
+							
+			        	</SwipeableViews>
+				    </div>
+				</Styles>
 			</div>
 		);
 	}

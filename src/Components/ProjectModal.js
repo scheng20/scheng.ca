@@ -66,8 +66,8 @@ export default function ProjectModal(props) {
                 <Row>
                   <Col className = "align-self-center text-center"> 
                     <ModalImage
-                      small={require('../Assets/'+ props.image1)}
-                      large = {require('../Assets/'+ props.image1)} 
+                      small={require('../Assets/Images/'+ props.image1)}
+                      large = {require('../Assets/Images/'+ props.image1)} 
                       hideDownload = {true}
                     />
                   </Col>
@@ -81,8 +81,8 @@ export default function ProjectModal(props) {
                 <Row>
                   <Col className = "align-self-center text-center">
                     <ModalImage
-                      small={require('../Assets/'+ props.image2)}
-                      large = {require('../Assets/'+ props.image2)} 
+                      small={require('../Assets/Images/'+ props.image2)}
+                      large = {require('../Assets/Images/'+ props.image2)} 
                       hideDownload = {true}
                     />
                   </Col>

@@ -42,7 +42,7 @@ export default function ProjectCard(props) {
 		<Styles style = {{'display': 'flex'}}>
 
             <Card>
-            	<Card.Img variant="top" src={require('../Assets/'+ props.demo_gif)} />
+            	<Card.Img variant="top" src={require('../Assets/Images/'+ props.demo_gif)} />
 				<Card.Body>
 					<Card.Title>{props.title}</Card.Title>
 					<Card.Subtitle className="mb-2 text-muted">{props.tech.join(", ")}</Card.Subtitle>

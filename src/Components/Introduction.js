@@ -1,9 +1,8 @@
 import React from 'react';
+import styled from 'styled-components';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import pic from "../Assets/intro.jpg";
-import styled from 'styled-components';
 import Emoji from './Emoji.js';
 
 const Styles = styled.div`
@@ -59,7 +58,6 @@ const Styles = styled.div`
 	}
 `;
 
-
 export default function Introduction() {
 
 	return (
@@ -67,7 +65,7 @@ export default function Introduction() {
 			<Styles>
                 <Row className="justify-content-center">
                   <Col xl = {4} className="align-self-center" > 
-                    <Image src={pic} roundedCircle />
+                    <Image src={require("../Assets/Images/intro.jpg")} roundedCircle />
                   </Col>
                   <Col className="align-self-center">
                     <h1 className = "custom"> Nice to meet you! </h1>
