@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.6a74f226.chunk.css",
-    "main.js": "/static/js/main.0b86824d.chunk.js",
-    "main.js.map": "/static/js/main.0b86824d.chunk.js.map",
+    "main.js": "/static/js/main.d7113e48.chunk.js",
+    "main.js.map": "/static/js/main.d7113e48.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9089ee33.js",
     "runtime-main.js.map": "/static/js/runtime-main.9089ee33.js.map",
-    "static/js/2.8fd7df27.chunk.js": "/static/js/2.8fd7df27.chunk.js",
-    "static/js/2.8fd7df27.chunk.js.map": "/static/js/2.8fd7df27.chunk.js.map",
+    "static/js/2.3af2b7d4.chunk.js": "/static/js/2.3af2b7d4.chunk.js",
+    "static/js/2.3af2b7d4.chunk.js.map": "/static/js/2.3af2b7d4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b3fbc4477a1b50248ffadb139d56d68e.js": "/precache-manifest.b3fbc4477a1b50248ffadb139d56d68e.js",
+    "precache-manifest.fac0a471cc1efdc0eec073a0abd8311d.js": "/precache-manifest.fac0a471cc1efdc0eec073a0abd8311d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.6a74f226.chunk.css.map": "/static/css/main.6a74f226.chunk.css.map",
-    "static/js/2.8fd7df27.chunk.js.LICENSE.txt": "/static/js/2.8fd7df27.chunk.js.LICENSE.txt",
+    "static/js/2.3af2b7d4.chunk.js.LICENSE.txt": "/static/js/2.3af2b7d4.chunk.js.LICENSE.txt",
     "static/media/AFK1.png": "/static/media/AFK1.8d8500e9.png",
     "static/media/AFK2.png": "/static/media/AFK2.799c8124.png",
     "static/media/Assigner1.png": "/static/media/Assigner1.2b34bd73.png",
@@ -28,12 +28,7 @@
     "static/media/MentalHealth1.png": "/static/media/MentalHealth1.6628001d.png",
     "static/media/MentalHealth2.png": "/static/media/MentalHealth2.dc42c4e8.png",
     "static/media/ProToGo.png": "/static/media/ProToGo.fd014d1a.png",
-    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.e07df86c.ttf",
-    "static/media/Roboto-BoldItalic.ttf": "/static/media/Roboto-BoldItalic.5b44818d.ttf",
-    "static/media/Roboto-Italic.ttf": "/static/media/Roboto-Italic.a720f17a.ttf",
-    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.58aef543.ttf",
-    "static/media/Roboto-MediumItalic.ttf": "/static/media/Roboto-MediumItalic.cf23e1bb.ttf",
-    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.11eabca2.ttf",
+    "static/media/index.css": "/static/media/Roboto-Regular.11eabca2.ttf",
     "static/media/SHAD.png": "/static/media/SHAD.572de3a6.png",
     "static/media/SWCLaunchX.png": "/static/media/SWCLaunchX.631e85eb.png",
     "static/media/Sharing1.png": "/static/media/Sharing1.76e29d9b.png",
@@ -53,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9089ee33.js",
-    "static/js/2.8fd7df27.chunk.js",
+    "static/js/2.3af2b7d4.chunk.js",
     "static/css/main.6a74f226.chunk.css",
-    "static/js/main.0b86824d.chunk.js"
+    "static/js/main.d7113e48.chunk.js"
   ]
 }
