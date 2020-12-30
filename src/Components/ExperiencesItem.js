@@ -43,7 +43,7 @@ export default function ExperiencesItem(props) {
 		                  <Col className="align-self-center text-center"> 
 	                 		<a href = {props.url} target="_blank" rel="noopener noreferrer">
 		                    <Image 
-		                    	src={props.image}
+		                    	src={require('../Assets/' + props.image)}
 		                    	width = {110}
 		                    	height = {110}
 		                    	rounded />
