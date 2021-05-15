@@ -11,7 +11,7 @@
             "How to create a GUI using WindowBuilder",
             "Project planning"
         ],
-        "demo_gif": "project1.gif",
+        "demo_gif": "Sharing.gif",
         "img1": "Sharing1.png",
         "img2": "Sharing2.png",
         "github_link": "https://github.com/scheng20/sharing-schedule-generator",
@@ -19,28 +19,48 @@
         "extra_link_text": "Try the Program"
     },
 
-    {   
+    {
         "id": 2,
-        "title": "AFK (Away From Keyboard)",
-        "tech": ["JavaScript", "HTML", "CSS"],
-        "card_summary": "AFK is a chrome extension that allows users to navigate web pages through their voice. This project was in the top 35 out of 500+ project submissions for nwHacks2020, winning our team the “Wolfram Award”.",
-        "modal_summary": "Working in a team of 5, I was responsible for implementing the auto-scroll feature, which enabled a webpage to scroll down when the user reads the last words on screen out loud. I implemented this feature using a text-scraping function written in JavaScript. Additionally, I also implemented a toggle button, allowing the user to turn voice recognition on/off inside the extension popup. Other commands of our extension include: \"go down/up\", \"open/close tab\", \"go back/forward\", and \"reload/refresh\".",
+        "title": "Gomoku Online",
+        "tech": ["React", "Node", "Express", "Socket.io"],
+        "card_summary": "An online multiplayer port of the classic 2-player board game: Gomoku, built using React.js, Node.js, Express.js and Socket.io. Designed to help connect people during the COVID-19 pandemic.",
+        "modal_summary": "Growing up, one of my favourite board games was Gomoku. I have lots of fond memories playing against family and friends in this simple yet satisfying game. After the COVID-19 pandemic hit in 2020, I really began to feel the isolation from my friends and family. Inspired to combat this physical distance in my social circles, I decided to create an online version of Gomoku, allowing me to play against my family and friends no matter where they are located.",
         "learnings": [
-            "How to create a Chrome Extension",
-            "Basic JavaScript",
-            "Using JavaScript to trigger browser and web page actions",
-            "Don't give up even if you have to switch ideas halfway into the 24-hour hackathon :')"
+            "Coding a web board game using React ",
+            "Leveraging Socket.io to enable real-time, live interactions between players",
+            "Creating rooms each having their own state, allowing users to join and play in their own rooms",
+            "Building individualized connections, allowing the backend to send custom information to each player"
         ],
-        "demo_gif": "project2.gif",
-        "img1": "AFK1.png",
-        "img2": "AFK2.png",
-        "github_link": "https://github.com/scheng20/afk-chrome-extension",
-        "extra_link": "https://devpost.com/software/afk-bec9g1",
-        "extra_link_text": "View on DevPost"
+        "demo_gif": "Gomoku.gif",
+        "img1": "Gomoku1.png",
+        "img2": "Gomoku2.png",
+        "github_link": "https://github.com/scheng20/gomoku-online",
+        "extra_link": "https://gomoku-online.netlify.app/",
+        "extra_link_text": "Play the Game"
     },
 
     {   
         "id": 3,
+        "title": "Food Baby",
+        "tech": ["React", "Node", "Firebase", "Google Vision"],
+        "card_summary": "A webapp that uses the Google Vision API to help pregnant women identify foods that are good for their baby and foods to avoid during pregnancy. This project won the “Best Use of Google Cloud” award at the Cmd-f 2021 Hackathon.",
+        "modal_summary": "For the to-be-moms and expecting around the world, managing diet and knowing what is healthy can be stressful to manage.  Our webapp is designed to make the lives of expecting moms a little easier, by helping them quickly identify foods that are good or harmful to their baby. Working in a team of 4, I spearheaded our back-end development by integrating our webapp with Google Cloud’s Machine Learning Vision API and Google Firebase. This enabled the direct identification and classification of foods from a single photo, a key feature of our webapp.  I also assisted front-end development of several app pages using React and Bootstrap. This project won the “Best Use of Google Cloud” award at the Cmd-f 2021 Hackathon.",
+        "learnings": [
+            "How to use the Google Vision API in a webapp",
+            "How to use Google Firebase",
+            "How to handle the pressure and succeed in ideating, planning, and delivering a fully functional webapp under 24 hours",
+            "How to effectively communicate with team members under pressure and a tight deadline"
+        ],
+        "demo_gif": "FoodBaby.gif",
+        "img1": "FoodBaby1.png",
+        "img2": "FoodBaby2.png",
+        "github_link": "https://github.com/scheng20/food-baby",
+        "extra_link": "https://devpost.com/software/food-baby",
+        "extra_link_text": "View on DevPost"
+    },
+
+    {   
+        "id": 4,
         "title": "Online Management Platform",
         "tech": ["PHP", "SQL"],
         "card_summary": "A management web-app for a stock analysis service. Features include: adding and removing stock insights, publishing articles, managing user comments, and viewing user statistics.",
@@ -50,30 +70,12 @@
             "Basic PHP",
             "Basic MySQL operations"
         ],
-        "demo_gif": "project3.gif",
+        "demo_gif": "Management.gif",
         "img1": "Management1.png",
         "img2": "Management2.png",
         "github_link": "https://github.com/scheng20/management-platform",
         "extra_link": "https://www.youtube.com/watch?v=mSV1RIWVRtQ",
         "extra_link_text": "View Demo Video"
-    },
-
-    {   
-        "id": 4,
-        "title": "Schedule Assigner",
-        "tech": ["Java", "JavaFX", "JUnit"],
-        "card_summary": "Works as an add-on to my “Sharing Schedule Generator” project. Takes a list of names and a sharing schedule in the form of .txt files, then outputs an assigned schedule showing who should share in what group and when.",
-        "modal_summary": "This was my final project for the CPSC 210: Software Construction Course I took at UBC. Although I have built software prior to the course, I learned how to truly design programs instead of just piecing code together after CPSC 210. This project was a learning experience on how to design, test, and write cohesive code to create truly robust programs. I used Java to write the algorithms, JavaFX to build the GUI, and tested my code using JUnit.",
-        "learnings": [
-            "Object-oriented design principles (Single Responsibility Principle, Liskov Substitution Principle)",
-            "Writing robust programs and throwing exceptions",
-            "Testing my code using JUnit",
-            "How to build a GUI using JavaFX"
-        ],
-        "demo_gif": "project4.gif",
-        "img1": "Assigner1.png",
-        "img2": "Assigner2.png",
-        "github_link": "https://github.com/scheng20/schedule-assigner"
     },
 
     {   
@@ -89,7 +91,7 @@
             "Basic C#",
             "Basic level design"
         ],
-        "demo_gif": "project5.gif",
+        "demo_gif": "Game.gif",
         "img1": "Game1.png",
         "img2": "Game2.png",
         "github_link": "https://github.com/scheng20/just-a-2d-game",
@@ -98,7 +100,45 @@
     },
 
     {   
+        "id": 6,
+        "title": "AFK (Away From Keyboard)",
+        "tech": ["JavaScript", "HTML", "CSS"],
+        "card_summary": "AFK is a chrome extension that allows users to navigate web pages through their voice. This project was in the top 35 out of 500+ project submissions for nwHacks2020, winning our team the “Wolfram Award”.",
+        "modal_summary": "Working in a team of 5, I was responsible for implementing the auto-scroll feature, which enabled a webpage to scroll down when the user reads the last words on screen out loud. I implemented this feature using a text-scraping function written in JavaScript. Additionally, I also implemented a toggle button, allowing the user to turn voice recognition on/off inside the extension popup. Other commands of our extension include: \"go down/up\", \"open/close tab\", \"go back/forward\", and \"reload/refresh\".",
+        "learnings": [
+            "How to create a Chrome Extension",
+            "Basic JavaScript",
+            "Using JavaScript to trigger browser and web page actions",
+            "Don't give up even if you have to switch ideas halfway into the 24-hour hackathon :')"
+        ],
+        "demo_gif": "AFK.gif",
+        "img1": "AFK1.png",
+        "img2": "AFK2.png",
+        "github_link": "https://github.com/scheng20/afk-chrome-extension",
+        "extra_link": "https://devpost.com/software/afk-bec9g1",
+        "extra_link_text": "View on DevPost"
+    },
+
+    {   
         "id": 7,
+        "title": "Schedule Assigner",
+        "tech": ["Java", "JavaFX", "JUnit"],
+        "card_summary": "Works as an add-on to my “Sharing Schedule Generator” project. Takes a list of names and a sharing schedule in the form of .txt files, then outputs an assigned schedule showing who should share in what group and when.",
+        "modal_summary": "This was my final project for the CPSC 210: Software Construction Course I took at UBC. Although I have built software prior to the course, I learned how to truly design programs instead of just piecing code together after CPSC 210. This project was a learning experience on how to design, test, and write cohesive code to create truly robust programs. I used Java to write the algorithms, JavaFX to build the GUI, and tested my code using JUnit.",
+        "learnings": [
+            "Object-oriented design principles (Single Responsibility Principle, Liskov Substitution Principle)",
+            "Writing robust programs and throwing exceptions",
+            "Testing my code using JUnit",
+            "How to build a GUI using JavaFX"
+        ],
+        "demo_gif": "Assigner.gif",
+        "img1": "Assigner1.png",
+        "img2": "Assigner2.png",
+        "github_link": "https://github.com/scheng20/schedule-assigner"
+    },
+
+    {   
+        "id": 8,
         "title": "GitHub Issues Viewer",
         "tech": ["React", "Bootstrap"],
         "card_summary": "A simple web app that utilizes the GitHub API to fetch and display a list of issues from any GitHub repository. Users can further filter the fetched issues by their status: “open”, “closed”, or “pull-request”.",
@@ -109,7 +149,7 @@
             "Using CSS to build a responsive design",
             "Better organization of CSS stylesheets"
         ],
-        "demo_gif": "project7.gif",
+        "demo_gif": "IssueViewer.gif",
         "img1": "IssueViewer1.png",
         "img2": "IssueViewer2.png",
         "github_link": "https://github.com/scheng20/github-issues-viewer",
@@ -118,7 +158,7 @@
     },
 
     {   
-        "id": 8,
+        "id": 9,
         "title": "Mental Health Webapp",
         "tech": ["PHP", "SQL", "CSS", "HTML"],
         "card_summary": "Designed for mental health help seekers and counsellors, our app acts as a one-stop-shop for one’s mental health resources, whether that be hotlines, resource centres, or even to search and book appointments.",
@@ -129,14 +169,14 @@
             "Creating ER diagrams",
             "Writing database schemas and functional dependencies"
         ],
-        "demo_gif": "project8.gif",
+        "demo_gif": "MentalHealth.gif",
         "img1": "MentalHealth1.png",
         "img2": "MentalHealth2.png",
         "github_link": "https://github.com/scheng20/mental-health-app"
     },
 
     {   
-        "id": 6,
+        "id": 10,
         "title": "Designed Websites",
         "tech": ["WordPress", "Elementor"],
         "card_summary": "From 2016-2018 I ran a small web-design business: ITReliable. Working as the web designer, I created websites for clients using WordPress and managed them using cPanel and phpMyAdmin.",
@@ -147,7 +187,7 @@
             "Domain management",
             "IT troubleshooting"
         ],
-        "demo_gif": "project6.gif",
+        "demo_gif": "IT.gif",
         "img1": "IT1.png",
         "img2": "IT2.png",
         "github_link": "https://www.itreliable.com/wp/",
