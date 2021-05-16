@@ -32,9 +32,13 @@ export default function Skills() {
 					      	<ul>
 							  	<li>Java</li>
 							  	<li>SQL</li>
+						  		<li>HTML</li>
+						  		<li>CSS</li>
 							</ul>
 						<b>Tools & Frameworks:</b>
 							<ul>
+						  		<li>Bootstrap</li>
+						  		<li>MySQL</li>
 								<li>Git</li>
 							  	<li>WordPress</li>
 							  	<li>Figma</li>
@@ -48,18 +52,15 @@ export default function Skills() {
 					  <Card.Body>
 				      	<b>Languages:</b>
 				      		<ul>
+				      			<li>JavaScript</li>
 				      			<li>C++</li>
+				      			<li>C#</li>
 				      			<li>C</li>
 				      			<li>PHP</li>
-				      			<li>JavaScript</li>
-						  		<li>HTML</li>
-						  		<li>CSS</li>
 							</ul>
 						<b>Tools & Frameworks:</b>
 							<ul>
-						  		<li>React</li>
-						  		<li>Bootstrap</li>
-						  		<li>MySQL</li>
+								<li>React</li>
 						  		<li>MongoDB</li>
 						  		<li>Unity</li>
 							</ul>
@@ -72,7 +73,6 @@ export default function Skills() {
 					  <Card.Body>
 				      	<b>Languages:</b>
 				      		<ul>
-						  		<li>C#</li>
 				      			<li>Python</li>
 						  		<li>Ruby</li>
 							</ul>
