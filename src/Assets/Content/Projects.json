@@ -43,8 +43,8 @@
         "id": 3,
         "title": "Food Baby",
         "tech": ["React", "Node", "Firebase", "Google Vision"],
-        "card_summary": "A webapp that uses the Google Vision API to help pregnant women identify foods that are good for their baby and foods to avoid during pregnancy. This project won the “Best Use of Google Cloud” award at Cmd-f 2021.",
-        "modal_summary": "For the to-be-moms and expecting around the world, managing diet and knowing what is healthy can be stressful to manage.  Our webapp is designed to make the lives of expecting moms a little easier, by helping them quickly identify foods that are good or harmful to their baby. Working in a team of 4, I spearheaded our back-end development by integrating our webapp with Google Cloud’s Machine Learning Vision API and Google Firebase. This enabled the direct identification and classification of foods from a single photo, a key feature of our webapp.  I also assisted front-end development of several app pages using React and Bootstrap. This project won the “Best Use of Google Cloud” award at the Cmd-f 2021 Hackathon.",
+        "card_summary": "A webapp that utilizes the Google Vision API to help pregnant women easily identify the impact of certain foods during pregnancy. This project won the “Best Use of Google Cloud” award at Cmd-f 2021.",
+        "modal_summary": "For the to-be-moms and expecting around the world, managing diet and knowing what is healthy can be stressful to manage.  Our webapp is designed to make the lives of expecting moms a little easier, by helping them quickly identify foods that are good or harmful to their baby. Working in a team of 4, I spearheaded our back-end development by integrating our webapp with Google Cloud’s Machine Learning Vision API and Google Firebase. This enabled the direct identification and classification of foods from a single photo, a key feature of our webapp.  I also assisted the front-end development of several app pages using React and Bootstrap. This project won the “Best Use of Google Cloud” award out of 250+ hackers and 80+ teams at the Cmd-f 2021 Hackathon.",
         "learnings": [
             "How to use the Google Vision API in a webapp",
             "How to use Google Firebase",
@@ -103,8 +103,8 @@
         "id": 6,
         "title": "AFK (Away From Keyboard)",
         "tech": ["JavaScript", "HTML", "CSS"],
-        "card_summary": "AFK is a chrome extension that allows users to navigate web pages through their voice. This project was in the top 35 out of 500+ project submissions for nwHacks 2020, winning our team the “Wolfram Award”.",
-        "modal_summary": "Working in a team of 5, I was responsible for implementing the auto-scroll feature, which enabled a webpage to scroll down when the user reads the last words on screen out loud. I implemented this feature using a text-scraping function written in JavaScript. Additionally, I also implemented a toggle button, allowing the user to turn voice recognition on/off inside the extension popup. Other commands of our extension include: \"go down/up\", \"open/close tab\", \"go back/forward\", and \"reload/refresh\". This project was in the top 35 out of 500+ project submissions for nwHacks 2020, winning our team the “Wolfram Award”.",
+        "card_summary": "AFK is a chrome extension that allows users to navigate web pages through their voice. This project was in the top 35 out of 145 project submissions for nwHacks 2020, winning our team the “Wolfram Award”.",
+        "modal_summary": "Working in a team of 5, I was responsible for implementing the auto-scroll feature, which enabled a webpage to scroll down when the user reads the last words on screen out loud. I implemented this feature using a text-scraping function written in JavaScript. Additionally, I also implemented a toggle button, allowing the user to turn voice recognition on/off inside the extension popup.  Other commands of our extension include: “go down/up”, “open/close tab”, “go back/forward”, and “reload/refresh”. This project placed within the top 35 spots out of 750+ hackers, 175+ teams and 145 project submissions at nwHacks 2020, winning our team the “Wolfram Award”.",
         "learnings": [
             "How to create a Chrome Extension",
             "Basic JavaScript",
