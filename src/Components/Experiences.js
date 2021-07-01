@@ -22,12 +22,12 @@ const chunkArray = (arr, chunkSize) => {
   return chunked;
 }
 
-const VALUES = ['2016/01/01','2017/01/01','2018/01/01','2019/01/01', '2020/01/01'];
+const VALUES = ['2016/01/01','2017/01/01','2018/01/01','2019/01/01', '2020/01/01', '2021/01/01'];
 const chunkedArray = chunkArray(ExperienceContents, 2);
 
 export default class Experiences extends React.Component {
 
-	state = { value: 4, previous: 3 };
+	state = { value: 5, previous: 4 };
 
 	render() {
 		return (

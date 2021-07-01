@@ -70,7 +70,7 @@ export default function Introduction() {
                   <Col className="align-self-center">
                     <h1 className = "custom"> Nice to meet you! </h1>
 					<p>
-					My name is Sheena and I’m a third year student studying <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank" rel="noopener noreferrer">business and computer science (BUCS)</a> at 
+					My name is Sheena and I’m a fourth year student studying <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank" rel="noopener noreferrer">business and computer science (BUCS)</a> at 
 					the University of British Columbia. I am passionate about both <a href="https://github.com/scheng20" target = "_blank" rel="noopener noreferrer"> software development </a> and <a href="https://www.linkedin.com/in/sheena-cheng/" target = "_blank" rel="noopener noreferrer"> entrepreneurship </a>. 
 					I enjoy building things that will make people’s lives easier, and enlarging that impact through the power of business. </p>
 

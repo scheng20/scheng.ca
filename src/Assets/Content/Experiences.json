@@ -55,15 +55,6 @@
 
     {
         "id": 7,
-        "heading": "Marketing Director & Team Lead",
-        "company": "UBC BizTech",
-        "description": "During my time as a team lead and marketing director for UBC BizTech (UBC's largest tech club), I boosted our event turnout rates by 10% through implementing a new marketing strategy. This strategy was created by analyzing previous years’ event marketing data and identifying the trends and opportunities. Additionally, I lead a team of 5 to plan, organize, and run 14 successful events for 281 club members throughout the school year.",
-        "image": "BizTech.png",
-        "url": "https://www.ubcbiztech.com/"
-    },
-
-    {
-        "id": 8,
         "heading": "Developer",
         "company": "ProToGo Technologies Inc.",
         "description": "As one of the developers for ProToGo, a student-lead start up aimed at transforming the construction industry, I worked on building the first version of ProToGo’s web application. I focused on building front-end pages using Vue.js and connecting the Vue components to our back-end Firebase to store and reflect data.",
@@ -72,19 +63,46 @@
     },
 
     {
+        "id": 8,
+        "heading": "First Year Representative",
+        "company": "UBC BizTech",
+        "description": "As a first-year representative for UBC BizTech, UBC’s largest tech club, I was responsible for assisting the partnerships director with contacting companies and finding sponsors. Additionally, I helped with organizing, planning, and running over 12 BizTech events throughout the school year. UBC BizTech is the largest technology club at the University of British Columbia. Focused on bringing together the fields of business and technology, UBC BizTech has over 280 members, who are intelligent, ambitious, and keen students ranging from many different faculties.",
+        "image": "BizTech.png",
+        "url": "https://www.ubcbiztech.com/"
+    },
+
+    {
         "id": 9,
-        "heading": "Technical Project Coordinator / Developer Intern",
+        "heading": "Technical Project Coordinator Intern",
         "company": "SAP SE",
-        "description": "As a technical project coordinator / developer intern at SAP, I worked with a development team to build an internal training web-app used across SAP Canada with the MERN (MongoDB, Express, React, Node.js) stack. I focused on coding React components such as a data consent modal and implementing MongoDB endpoints such as storing a user’s training data. On the project-coordination side, I helped senior management make data driven decisions by creating multiple BI dashboards using SAP Analytics Cloud and SAP Predictive Analytics. Furthermore, I ensured the success of our customer adoption program by creating adoption benchmarks and a customer adoption maturity model validated by stakeholders.",
+        "description": "As a technical project coordinator intern at SAP, I worked with a development team on the technical side, to build an internal training web-app used across SAP Canada with the MERN (MongoDB, Express, React, Node.js) stack. I focused on coding React components such as a data consent modal and implementing MongoDB endpoints such as storing a user’s training data. On the project-coordination side, I helped senior management make data driven decisions by creating multiple BI dashboards using SAP Analytics Cloud and SAP Predictive Analytics. Furthermore, I ensured the success of our customer adoption program by creating adoption benchmarks and a customer adoption maturity model validated by stakeholders.",
         "image": "SAP.jpg",
         "url": "https://www.sap.com/"
     },
 
     {
         "id": 10,
+        "heading": "Marketing Director & Team Lead",
+        "company": "UBC BizTech",
+        "description": "During my time as a team lead and marketing director for UBC BizTech (UBC's largest tech club), I boosted our event turnout rates by 10% through implementing a new marketing strategy. This strategy was created by analyzing previous years’ event marketing data and identifying the trends and opportunities. Additionally, I lead a team of 5 to plan, organize, and run 14 successful events for 281 club members throughout the school year.",
+        "image": "BizTech.png",
+        "url": "https://www.ubcbiztech.com/"
+    },
+
+    {
+        "id": 11,
+        "heading": "C++ Software Engineer Intern",
+        "company": "Electronic Arts (EA)",
+        "description": "Joining as a software engineer intern on EA’s FIFA systems team, I helped ensure the success of FIFA 22 by working in areas including: memory management, collecting performance metrics, and improving crash diagnosis and automation tools. More specifically, I greatly enhanced the crash diagnosis process on PS4 and PS5 consoles by implementing the ability to provide, retrieve, and process valuable crash context information within FIFA’s crash reporting tool. Furthermore, I significantly improved the accuracy of memory reports by re-working the memory snapshot mechanism, allowing it to have a more precise timing. Lastly, I ensured the quality of FIFA 22 by fixing multiple critical bugs, adding features to our automation tools, and stabilizing automation cycles.",
+        "image": "EA.png",
+        "url": "https://www.ea.com/"
+    },
+
+    {
+        "id": 12,
         "heading": "Web Developer",
         "company": "UBC Table Tennis Club",
-        "description": "Working within a team of developers, I am responsible for leading front-end development and creating several web pages using Ruby on Rails, JavaScript, HTML, CSS and Bootstrap. In addition, I help other developers by assisting the back-end configuration of Heroku and PostgreSQL database, and troubleshooting any environment setup and front-end development questions.",
+        "description": "Working within a team of developers, I am responsible for leading front-end development and creating several web pages using Ruby on Rails, JavaScript, HTML, CSS and Bootstrap. In addition, I help other developers by assisting the back-end configuration of Heroku and PostgreSQL database, and troubleshooting any environment setup and front-end development issues.",
         "image": "UBCTTC.jpg",
         "url": "http://www.ubctabletennis.org/"
     }
