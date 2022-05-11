@@ -99,7 +99,6 @@ export default function Contact() {
 						<Button className="btn-github" href="https://github.com/scheng20" target="_blank" rel="noopener noreferrer">
 							<FaGithub size = {25}/>
 						</Button>
-						
 						{/* <Button className="btn-resume" href="" target="_blank" rel="noopener noreferrer">
 							<FaFileAlt size = {25}/>
 						</Button> */}
