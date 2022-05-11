@@ -65,7 +65,7 @@ export default function Introduction() {
 			<Styles>
                 <Row className="justify-content-center">
                   <Col xl = {4} className="align-self-center" > 
-                    <Image src={require("../Assets/Images/intro.jpg").default} roundedCircle />
+                    <Image src={require("../Assets/Images/intro.jpg")} roundedCircle />
                   </Col>
                   <Col className="align-self-center">
                     <h1 className = "custom"> Nice to meet you! </h1>
