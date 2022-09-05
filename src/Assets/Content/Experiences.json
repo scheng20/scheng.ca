@@ -105,6 +105,23 @@
         "description": "Working within a team of developers, I am responsible for leading front-end development and creating several web pages using Ruby on Rails, JavaScript, HTML, CSS and Bootstrap. In addition, I help other developers by assisting the back-end configuration of Heroku and PostgreSQL database, and troubleshooting any environment setup and front-end development issues.",
         "image": "UBCTTC.jpg",
         "url": "http://www.ubctabletennis.org/"
+    },
+
+    {
+        "id": 13,
+        "heading": "Software Engineer Intern",
+        "company": "Microsoft",
+        "description": "As a software engineer intern on Microsoft’s Azure Compute – OnePubSub Team, I worked on building a POC proxy server for our ZooKeeper service using C#, .NET Core 5.0, TCP sockets, SSL protocol, and Azure SLB. Designed to serve over 1000+ machines, this proxy significantly improved the connectivity, migration support, disaster recovery, and extendibility of Microsoft’s internal ZooKeeper service. Additionally, I worked with principal engineers to set the foundations of the proxy documentation by writing a detailed design document covering benefits, functional requirements, and architectural approach. Lastly, I evaluated the proxy’s performance by writing tests, measuring latency, and collecting telemetry.",
+        "image": "Microsoft.png",
+        "url": "https://www.microsoft.com"
+    },
+
+    {
+        "id": 14,
+        "heading": "Use the Timeline to See More Past Experiences!",
+        "description": "Try clicking on \"2021\" to see what I did last year.",
+        "image": "Arrow.png",
+        "url": "https://www.scheng.ca"
     }
     
 ]
