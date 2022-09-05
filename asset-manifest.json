@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7977a4c8.css",
-    "main.js": "/static/js/main.08b5afbd.js",
+    "main.js": "/static/js/main.d113d6e0.js",
     "static/media/IT.gif": "/static/media/IT.ea3f83d0e21a8ec54a12.gif",
     "static/media/IssueViewer.gif": "/static/media/IssueViewer.fc8f01b8100459222e66.gif",
     "static/media/Gomoku.gif": "/static/media/Gomoku.2595df203c7fb096ebf3.gif",
@@ -26,6 +26,7 @@
     "static/media/IssueViewer2.png": "/static/media/IssueViewer2.2376dc2385f6eacdd496.png",
     "static/media/MentalHealth1.png": "/static/media/MentalHealth1.48e37c6ea695307f0379.png",
     "static/media/MentalHealth2.png": "/static/media/MentalHealth2.d698293fc6dda6b1ee24.png",
+    "static/media/Microsoft.png": "/static/media/Microsoft.9f85efeedf360e2195e8.png",
     "static/media/FoodBaby1.png": "/static/media/FoodBaby1.5bd6e842f8533e685096.png",
     "static/media/Game2.png": "/static/media/Game2.5e16520627f6ff7ef19e.png",
     "static/media/Assigner2.png": "/static/media/Assigner2.4f3ee2b814b5ffa9e5ce.png",
@@ -44,15 +45,16 @@
     "static/media/MathPickle.png": "/static/media/MathPickle.e500425bdc9ffd7afa02.png",
     "static/media/AFK2.png": "/static/media/AFK2.50166fc511b888551eca.png",
     "static/media/TTCAN.png": "/static/media/TTCAN.9d26eae2ce00adc43454.png",
+    "static/media/Arrow.png": "/static/media/Arrow.17930e7c9760cc0db957.png",
     "static/media/EA.png": "/static/media/EA.6ea0ec46be7dac2bd679.png",
     "static/media/Technovation.png": "/static/media/Technovation.3dea808f132900d0b5d0.png",
     "static/media/SWCLaunchX.png": "/static/media/SWCLaunchX.29a4372f56d34cc74923.png",
     "index.html": "/index.html",
     "main.7977a4c8.css.map": "/static/css/main.7977a4c8.css.map",
-    "main.08b5afbd.js.map": "/static/js/main.08b5afbd.js.map"
+    "main.d113d6e0.js.map": "/static/js/main.d113d6e0.js.map"
   },
   "entrypoints": [
     "static/css/main.7977a4c8.css",
-    "static/js/main.08b5afbd.js"
+    "static/js/main.d113d6e0.js"
   ]
 }
