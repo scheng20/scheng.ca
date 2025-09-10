@@ -126,7 +126,7 @@
 
     {
         "id": 15,
-        "heading": "Software Engineer (2023 - Present)",
+        "heading": "Software Engineer (Present)",
         "description": "I’m building and managing large scale distributed systems services (Kafka & Zookeeper) used across Azure and Microsoft at the foundational platform layer. These services run globally 24/7 with high availability and across 250+ availability zones. My work focuses on improving the fundamental quality, resiliency, security, and availability of these services. Outside of my team, I’m passionate about helping other early-in-career folks by organizing career discussions.",
         "image": "Microsoft.png",
         "url": "https://www.microsoft.com"

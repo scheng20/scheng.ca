@@ -27,7 +27,8 @@ const chunkedArray = chunkArray(ExperienceContents, 2);
 
 export default class Experiences extends React.Component {
 
-	state = { value: 6, previous: 5 };
+	// Set to always display the latest
+	state = { value: 7, previous: 6 };
 
 	render() {
 		return (
