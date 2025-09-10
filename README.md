@@ -13,7 +13,7 @@ After creating my first personal website with WordPress, I was never truly satis
 npm start
 
 // Deploy website publically
-npm run-deploy
+npm run deploy
 ```
 
 ## :information_source: Used Packages
