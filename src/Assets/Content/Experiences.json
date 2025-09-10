@@ -119,7 +119,23 @@
     {
         "id": 14,
         "heading": "Use the Timeline to See More Past Experiences!",
-        "description": "Try clicking on \"2021\" to see what I did last year.",
+        "description": "Try clicking on \"2021\" to see what I did in the past.",
+        "image": "Arrow.png",
+        "url": "https://www.scheng.ca"
+    },
+
+    {
+        "id": 15,
+        "heading": "Software Engineer (2023 - Present)",
+        "description": "I’m building and managing large scale distributed systems services (Kafka & Zookeeper) used across Azure and Microsoft at the foundational platform layer. These services run globally 24/7 with high availability and across 250+ availability zones. My work focuses on improving the fundamental quality, resiliency, security, and availability of these services. Outside of my team, I’m passionate about helping other early-in-career folks by organizing career discussions.",
+        "image": "Microsoft.png",
+        "url": "https://www.microsoft.com"
+    },
+
+    {
+        "id": 16,
+        "heading": "Use the Timeline to See More Past Experiences!",
+        "description": "Try clicking on \"2022\" to see what I did in the past.",
         "image": "Arrow.png",
         "url": "https://www.scheng.ca"
     }

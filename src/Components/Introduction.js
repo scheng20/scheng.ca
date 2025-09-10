@@ -68,10 +68,11 @@ export default function Introduction() {
                     <Image src={require("../Assets/Images/intro.jpg")} roundedCircle />
                   </Col>
                   <Col className="align-self-center">
-                    <h1 className = "custom"> Nice to meet you! </h1>
+                    <h1 className = "custom"> Hi there! 👋🏻 </h1>
 					<p>
-					My name is Sheena and I’m a fourth year student studying <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank" rel="noopener noreferrer">business and computer science (BUCS)</a> at 
-					the University of British Columbia. I am passionate about both <a href="https://github.com/scheng20" target = "_blank" rel="noopener noreferrer"> software development </a> and <a href="https://www.linkedin.com/in/sheena-cheng/" target = "_blank" rel="noopener noreferrer"> entrepreneurship </a>. 
+					My name is Sheena and I'm currently a software engineer building large scale distributed systems services at Microsoft. 
+					I graduated from the <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank" rel="noopener noreferrer">business and computer science (BUCS) program </a> at 
+					the University of British Columbia in 2023. I am passionate about both <a href="https://github.com/scheng20" target = "_blank" rel="noopener noreferrer"> software development </a> and <a href="https://www.linkedin.com/in/sheena-cheng/" target = "_blank" rel="noopener noreferrer"> entrepreneurship </a>. 
 					I enjoy building things that will make people’s lives easier, and enlarging that impact through the power of business. </p>
 
 					<p> In my spare time, I like to play video games <Emoji symbol="🎮"/>, hike in nature <Emoji symbol="🌲"/>, workout <Emoji symbol="🏋"/>, play table tennis <Emoji symbol="🏓"/>, and jam on the guitar <Emoji symbol="🎸"/>. 
