@@ -32,6 +32,7 @@ export default function Skills() {
 					      	<ul>
 							  	<li>Java</li>
 							  	<li>SQL</li>
+								<li>KQL</li>
 						  		<li>HTML</li>
 						  		<li>CSS</li>
 							</ul>
@@ -52,10 +53,12 @@ export default function Skills() {
 					  <Card.Body>
 				      	<b>Languages:</b>
 				      		<ul>
+							    <li>Python</li>
 				      			<li>JavaScript</li>
+								<li>C#</li>
 				      			<li>C++</li>
-				      			<li>C#</li>
 				      			<li>C</li>
+								<li>Rust</li>
 				      			<li>PHP</li>
 							</ul>
 						<b>Tools & Frameworks:</b>
@@ -73,7 +76,6 @@ export default function Skills() {
 					  <Card.Body>
 				      	<b>Languages:</b>
 				      		<ul>
-				      			<li>Python</li>
 						  		<li>Ruby</li>
 							</ul>
 						<b>Tools & Frameworks:</b>
