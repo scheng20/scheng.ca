@@ -68,7 +68,7 @@ export default function Introduction() {
                     <Image src={require("../Assets/Images/intro.jpg")} roundedCircle />
                   </Col>
                   <Col className="align-self-center">
-                    <h1 className = "custom"> Hi there! 👋🏻 </h1>
+                    <h1 className = "custom"> Hey there! 👋🏻 </h1>
 					<p>
 					My name is Sheena and I'm currently a software engineer building large scale distributed systems services at Microsoft. 
 					I graduated from the <a href="https://mybcom.sauder.ubc.ca/courses-money-enrolment/program-requirements/combined-major-in%C2%A0business-and-computer-science" target = "_blank" rel="noopener noreferrer">business and computer science (BUCS) program </a> at 
