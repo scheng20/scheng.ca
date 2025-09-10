@@ -12,7 +12,7 @@ After creating my first personal website with WordPress, I was never truly satis
 // Build website locally
 npm start
 
-// Deploy website publically
+// Deploy website publicly
 npm run deploy
 ```
 
@@ -21,3 +21,4 @@ npm run deploy
 - [React Horizontal Timeline](https://github.com/sherubthakur/react-horizontal-timeline)
 - [React Swipeable Views](https://react-swipeable-views.com/)
 - [React Modal Image](https://www.npmjs.com/package/react-modal-image)
+
